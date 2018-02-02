@@ -1,0 +1,121 @@
+<!doctype html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>XC2 Completion Checklist</title>
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootswatch/4.0.0/cyborg/bootstrap.min.css" integrity="sha256-sr4I9fIrCVH0HMHOpwX/5m0ZDsdKPDg7cwzbQR77d28=" crossorigin="anonymous" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.css" integrity="sha256-eU4xmpfQx1HSi5q1q2rHNcMEzTNJov7r2Wr/6zF3ANc=" crossorigin="anonymous" />
+    <link rel="stylesheet" type="text/css" href="https://rawgit.com/wenzhixin/bootstrap-table/develop/src/extensions/filter-control/bootstrap-table-filter-control.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" integrity="sha256-HxaKz5E/eBbvhGMNwhWRPrAR9i/lG1JeT4mD6hCQ7s4=" crossorigin="anonymous" />
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js" integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.13.0/umd/popper.min.js" integrity="sha256-pS96pU17yq+gVu4KBQJi38VpSuKN7otMrDQprzf/DWY=" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/bootstrap-table.min.js" integrity="sha256-eXHLyyVI+v6X1wbfg9NB05IWqOqY4E9185nHZgeDIhg=" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.11.1/extensions/filter-control/bootstrap-table-filter-control.min.js" integrity="sha256-qyXaapsr+PVNpdEqfU2yiqRLYUfClBp88YvLJ6q26/8=" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <h1>XC2 Completion Checklist</h1>
+    <ul class="nav nav-tabs" id="main_menu" role="tablist">
+        <li class="nav-item">
+            <a class="nav-link active" id="intro-tab" data-toggle="tab" href="#intro" role="tab" aria-controls="intro" aria-selected="true">Intro</a>
+        </li>
+        <li class="nav-item dropdown">
+            <a class="nav-link dropdown-toggle" id="quests-tab" data-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="false">Quests</a>
+            <div class="dropdown-menu">
+                <a class="dropdown-item" data-toggle="tab" href="#quests">Side Quests</a>
+                <a class="dropdown-item" data-toggle="tab" href="#quests-dlc">DLC Quests</a>
+                <a class="dropdown-item" data-toggle="tab" href="#quests-blade">Blade Quests</a>
+            </div>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="blades-tab" data-toggle="tab" href="#blades" role="tab" aria-controls="blades" aria-selected="false">Blades</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="shopdeeds-tab" data-toggle="tab" href="#shopdeeds" role="tab" aria-controls="shopdeeds" aria-selected="false">Shop Deeds</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="uniquemonsters-tab" data-toggle="tab" href="#uniquemonsters" role="tab" aria-controls="uniquemonsters" aria-selected="false">Unique Monsters</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="secretareas-tab" data-toggle="tab" href="#secretareas" role="tab" aria-controls="secretareas" aria-selected="false">Secret Areas</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="expman-tab" data-toggle="tab" href="#expman" role="tab" aria-controls="expman" aria-selected="false">Pouch Expansions/Poppi Manuals</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="bspon-tab" data-toggle="tab" href="#bspon" role="tab" aria-controls="bspon" aria-selected="false">Brothersisterpons</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="foorara-tab" data-toggle="tab" href="#foorara" role="tab" aria-controls="foorara" aria-selected="false">Foorara</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="doubloons-tab" data-toggle="tab" href="#doubloons" role="tab" aria-controls="doubloons" aria-selected="false">Nopon Doubloons</a>
+        </li>
+        <li class="nav-item">
+            <a class="nav-link" id="trust-tab" data-toggle="tab" href="#trust" role="tab" aria-controls="trust" aria-selected="false">Trust Items</a>
+        </li>
+    </ul>
+    <div class="tab-content" id="tab_content">
+        <div class="tab-pane fade show active" id="intro" role="tabpanel" aria-labelledby="intro-tab">
+            <h3>SPOILER ALERT</h3>
+            <p>This page contains massive massive spoilers. Proceed at your own discretion.</p>
+        </div>
+        <div class="tab-pane fade" id="quests" role="tabpanel" aria-labelledby="quests-tab">
+            <h3>Side Quests</h3>
+            <table id="quests-table" class="table table-hover"></table>
+        </div>
+        <div class="tab-pane fade" id="quests-dlc" role="tabpanel" aria-labelledby="quests-tab">
+            <h3>DLC Quests</h3>
+            <table id="quests-dlc-table" class="table table-hover"></table>
+        </div>
+        <div class="tab-pane fade" id="quests-blade" role="tabpanel" aria-labelledby="quests-tab">
+            <h3>Blade Quests</h3>
+            <table id="quests-blade-table" class="table table-hover"></table>
+        </div>
+        <div class="tab-pane fade" id="blades" role="tabpanel" aria-labelledby="blades-tab">
+            <h3>Blades</h3>
+            <table id="blades-table" class="table table-hover"></table>
+        </div>
+        <div class="tab-pane fade" id="shopdeeds" role="tabpanel" aria-labelledby="shopdeeds-tab">
+            <h3>Shop Deeds</h3>
+            <table id="shopdeeds-table" class="table table-hover"></table>
+        </div>
+        <div class="tab-pane fade" id="uniquemonsters" role="tabpanel" aria-labelledby="uniquemonsters-tab">
+            <h3>Unique Monsters</h3>
+            <table id="uniquemonsters-table" class="table table-hover"></table>
+        </div>
+        <div class="tab-pane fade" id="secretareas" role="tabpanel" aria-labelledby="secretareas-tab">
+            <h3>Secret Areas</h3>
+            <table id="secretareas-table" class="table table-hover"></table>
+        </div>
+        <div class="tab-pane fade" id="expman" role="tabpanel" aria-labelledby="expman-tab">
+            <h3>Pouch Expansions/Poppi Manuals</h3>
+            <table id="expman-table" class="table table-hover"></table>
+        </div>
+        <div class="tab-pane fade" id="bspon" role="tabpanel" aria-labelledby="bspon-tab">
+            <h3>Brothersisterpons</h3>
+            <table id="bspon-table" class="table table-hover"></table>
+        </div>
+        <div class="tab-pane fade" id="foorara" role="tabpanel" aria-labelledby="foorara-tab">
+            <h3>Foorara</h3>
+            <p>Must be found in this order</p>
+            <table id="foorara-table" class="table table-hover"></table>
+        </div>
+        <div class="tab-pane fade" id="doubloons" role="tabpanel" aria-labelledby="doubloons-tab">
+            <h3>Nopon Doubloons</h3>
+            <table id="doubloons-table" class="table table-hover"></table>
+        </div>
+        <div class="tab-pane fade" id="trust" role="tabpanel" aria-labelledby="trust-tab">
+            <h3>Trust Items</h3>
+            <p>For informational purposes. Not part of completion.</p>
+            <table id="trust-table" class="table table-hover"></table>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
