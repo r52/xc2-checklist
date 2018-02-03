@@ -542,1143 +542,1485 @@
     "mercmissions": [
         {
             "area": "Argentum Trade Guild",
-            "name": "Old Routes",
-            "uid": "merc_oldroutes"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "First Class Freshness!",
-            "uid": "merc_firstclassfreshness"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "Special Concert",
-            "uid": "merc_specialconcert"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "Rehearsal",
-            "uid": "merc_rehearsal"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "Big Ship Escort",
-            "uid": "merc_bigshipescort"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "New Sounds",
-            "uid": "merc_newsounds"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "Adenine's Password",
-            "uid": "merc_adeninespassword"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "Child Disappearances",
-            "uid": "merc_childdisappearances"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "Luxury Stage",
-            "uid": "merc_luxurystage"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "Black Nopon Search",
-            "uid": "merc_blacknoponsearch"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "Tome of Morytha Vol. 1",
-            "uid": "merc_tomeofmorythavol1"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "Tome of Morytha Vol. 2",
-            "uid": "merc_tomeofmorythavol2"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "Tome of Morytha Vol. 3",
-            "uid": "merc_tomeofmorythavol3"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "Tome of Morytha Vol. 4",
-            "uid": "merc_tomeofmorythavol4"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "Three Parts",
-            "uid": "merc_threeparts"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "Nopon News",
-            "uid": "merc_noponnews"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "Deck Duty",
-            "uid": "merc_deckduty"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "Sunken Ship Survey",
-            "uid": "merc_sunkenshipsurvey"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "Cooking Display",
-            "uid": "merc_cookingdisplay"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "Big Catch Opportunity",
-            "uid": "merc_bigcatchopportunity"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "Crane Protection",
-            "uid": "merc_craneprotection"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "Long-Awaited Work",
-            "uid": "merc_longawaitedwork"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "Sparkly Costumes",
-            "uid": "merc_sparklycostumes"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "Song Selection",
-            "uid": "merc_songselection"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "Nopon Pop Stars",
-            "uid": "merc_noponpopstars"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "Zenobia's Enemy 1",
-            "uid": "merc_zenobiasenemy1"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "We Need To Talk!",
-            "uid": "merc_weneedtotalk"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "Money, Money, Money",
-            "uid": "merc_moneymoneymoney"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "Flying Monsters",
-            "uid": "merc_flyingmonsters"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "Port Pest Problem",
-            "uid": "merc_portpestproblem"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "Grounded Ship Rescue",
-            "uid": "merc_groundedshiprescue"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "Ship Snooping",
-            "uid": "merc_shipsnooping"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "Avoiding Heavy Losses",
-            "uid": "merc_avoidingheavylosses"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "Nopon Veggie Stir-Fry",
-            "uid": "merc_noponveggiestirfry"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "Canteen Job",
-            "uid": "merc_canteenjob"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "On the Son's Trail!",
-            "uid": "merc_onthesonstrail"
-        },
-        {
-            "area": "Argentum Trade Guild",
             "name": "Unloading of Goods",
-            "uid": "merc_unloadingofgoods"
+            "uid": "merc_unloadingofgoods",
+            "notes": ""
         },
         {
             "area": "Argentum Trade Guild",
             "name": "Crane Repairs",
-            "uid": "merc_cranerepairs"
+            "uid": "merc_cranerepairs",
+            "notes": ""
         },
         {
             "area": "Argentum Trade Guild",
             "name": "Salvaging Security",
-            "uid": "merc_salvagingsecurity"
+            "uid": "merc_salvagingsecurity",
+            "notes": ""
         },
         {
             "area": "Argentum Trade Guild",
-            "name": "Vocal Lesson 1",
-            "uid": "merc_vocallesson1"
+            "name": "Nopon Veggie Stir-Fry",
+            "uid": "merc_noponveggiestirfry",
+            "notes": ""
         },
         {
             "area": "Argentum Trade Guild",
-            "name": "Vocal Lesson 2",
-            "uid": "merc_vocallesson2"
+            "name": "Canteen Job",
+            "uid": "merc_canteenjob",
+            "notes": ""
         },
         {
             "area": "Argentum Trade Guild",
-            "name": "Vocal Lesson 3",
-            "uid": "merc_vocallesson3"
+            "name": "Port Pest Problem",
+            "uid": "merc_portpestproblem",
+            "notes": ""
         },
         {
             "area": "Argentum Trade Guild",
-            "name": "Vocal Lesson 4",
-            "uid": "merc_vocallesson4"
+            "name": "Grounded Ship Rescue",
+            "uid": "merc_groundedshiprescue",
+            "notes": ""
         },
         {
             "area": "Argentum Trade Guild",
-            "name": "Vocal Lesson 5",
-            "uid": "merc_vocallesson5"
+            "name": "Ship Snooping",
+            "uid": "merc_shipsnooping",
+            "notes": ""
         },
         {
             "area": "Argentum Trade Guild",
-            "name": "Looks Lesson 1",
-            "uid": "merc_lookslesson1"
+            "name": "Avoiding Heavy Losses",
+            "uid": "merc_avoidingheavylosses",
+            "notes": ""
         },
         {
             "area": "Argentum Trade Guild",
-            "name": "Looks Lesson 2",
-            "uid": "merc_lookslesson2"
+            "name": "Money, Money, Money",
+            "uid": "merc_moneymoneymoney",
+            "notes": ""
         },
         {
             "area": "Argentum Trade Guild",
-            "name": "Looks Lesson 3",
-            "uid": "merc_lookslesson3"
+            "name": "Flying Monsters",
+            "uid": "merc_flyingmonsters",
+            "notes": ""
         },
         {
             "area": "Argentum Trade Guild",
-            "name": "Looks Lesson 4",
-            "uid": "merc_lookslesson4"
+            "name": "Big Catch Opportunity",
+            "uid": "merc_bigcatchopportunity",
+            "notes": ""
         },
         {
             "area": "Argentum Trade Guild",
-            "name": "Looks Lesson 5",
-            "uid": "merc_lookslesson5"
+            "name": "Crane Protection",
+            "uid": "merc_craneprotection",
+            "notes": ""
         },
         {
             "area": "Argentum Trade Guild",
-            "name": "Soul Lesson 1",
-            "uid": "merc_soullesson1"
+            "name": "Nopon News",
+            "uid": "merc_noponnews",
+            "notes": ""
         },
         {
             "area": "Argentum Trade Guild",
-            "name": "Soul Lesson 2",
-            "uid": "merc_soullesson2"
+            "name": "Deck Duty",
+            "uid": "merc_deckduty",
+            "notes": ""
         },
         {
             "area": "Argentum Trade Guild",
-            "name": "Soul Lesson 3",
-            "uid": "merc_soullesson3"
+            "name": "Sunken Ship Survey",
+            "uid": "merc_sunkenshipsurvey",
+            "notes": ""
         },
         {
             "area": "Argentum Trade Guild",
-            "name": "Soul Lesson 4",
-            "uid": "merc_soullesson4"
-        },
-        {
-            "area": "Argentum Trade Guild",
-            "name": "Soul Lesson 5",
-            "uid": "merc_soullesson5"
+            "name": "Big Ship Escort",
+            "uid": "merc_bigshipescort",
+            "notes": ""
         },
         {
             "area": "Argentum Trade Guild",
             "name": "Cooking Up a Feast",
-            "uid": "merc_cookingupafeast"
+            "uid": "merc_cookingupafeast",
+            "notes": ""
         },
         {
             "area": "Argentum Trade Guild",
             "name": "Lifesaving",
-            "uid": "merc_lifesaving"
+            "uid": "merc_lifesaving",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Vocal Lesson 1",
+            "uid": "merc_vocallesson1",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Vocal Lesson 2",
+            "uid": "merc_vocallesson2",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Vocal Lesson 3",
+            "uid": "merc_vocallesson3",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Vocal Lesson 4",
+            "uid": "merc_vocallesson4",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Vocal Lesson 5",
+            "uid": "merc_vocallesson5",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Looks Lesson 1",
+            "uid": "merc_lookslesson1",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Looks Lesson 2",
+            "uid": "merc_lookslesson2",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Looks Lesson 3",
+            "uid": "merc_lookslesson3",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Looks Lesson 4",
+            "uid": "merc_lookslesson4",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Looks Lesson 5",
+            "uid": "merc_lookslesson5",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Soul Lesson 1",
+            "uid": "merc_soullesson1",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Soul Lesson 2",
+            "uid": "merc_soullesson2",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Soul Lesson 3",
+            "uid": "merc_soullesson3",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Soul Lesson 4",
+            "uid": "merc_soullesson4",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Soul Lesson 5",
+            "uid": "merc_soullesson5",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Titan Battleship Fixes",
+            "uid": "merc_titanbattleshipfixes",
+            "notes": "DLC"
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Long-Awaited Work",
+            "uid": "merc_longawaitedwork",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Cooking Display",
+            "uid": "merc_cookingdisplay",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Rehearsal",
+            "uid": "merc_rehearsal",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "New Sounds",
+            "uid": "merc_newsounds",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "First Class Freshness!",
+            "uid": "merc_firstclassfreshness",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Old Routes",
+            "uid": "merc_oldroutes",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "On the Son's Trail!",
+            "uid": "merc_onthesonstrail",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Three Parts",
+            "uid": "merc_threeparts",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Child Disappearances",
+            "uid": "merc_childdisappearances",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Sparkly Costumes",
+            "uid": "merc_sparklycostumes",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Song Selection",
+            "uid": "merc_songselection",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Luxury Stage",
+            "uid": "merc_luxurystage",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Nopon Pop Stars",
+            "uid": "merc_noponpopstars",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Special Concert",
+            "uid": "merc_specialconcert",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Black Nopon Search",
+            "uid": "merc_blacknoponsearch",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Adenine's Password",
+            "uid": "merc_adeninespassword",
+            "notes": "Optional. Can be skipped if the password is already known."
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Zenobia's Enemy 1",
+            "uid": "merc_zenobiasenemy1",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "We Need To Talk!",
+            "uid": "merc_weneedtotalk",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Tome of Morytha Vol. 1",
+            "uid": "merc_tomeofmorythavol1",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Tome of Morytha Vol. 2",
+            "uid": "merc_tomeofmorythavol2",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Tome of Morytha Vol. 3",
+            "uid": "merc_tomeofmorythavol3",
+            "notes": ""
+        },
+        {
+            "area": "Argentum Trade Guild",
+            "name": "Tome of Morytha Vol. 4",
+            "uid": "merc_tomeofmorythavol4",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Woodworking",
-            "uid": "merc_woodworking"
+            "uid": "merc_woodworking",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Modeling Work",
-            "uid": "merc_modelingwork"
+            "uid": "merc_modelingwork",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Landslide Prevention",
-            "uid": "merc_landslideprevention"
+            "uid": "merc_landslideprevention",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Harvest Help",
-            "uid": "merc_harvesthelp"
+            "uid": "merc_harvesthelp",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Field Devastation",
-            "uid": "merc_fielddevastation"
+            "uid": "merc_fielddevastation",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Mannam Juice Delivery",
-            "uid": "merc_mannamjuicedelivery"
+            "uid": "merc_mannamjuicedelivery",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Wood Gathering",
-            "uid": "merc_woodgathering"
+            "uid": "merc_woodgathering",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Armu Retrieval",
-            "uid": "merc_armuretrieval"
+            "uid": "merc_armuretrieval",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Test of Courage",
-            "uid": "merc_testofcourage"
+            "uid": "merc_testofcourage",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Forest Fire Prevention",
-            "uid": "merc_forestfireprevention"
+            "uid": "merc_forestfireprevention",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Stranded Merchant",
-            "uid": "merc_strandedmerchant"
+            "uid": "merc_strandedmerchant",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Gormott Secret Area",
-            "uid": "merc_gormottsecretarea"
+            "uid": "merc_gormottsecretarea",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Protect the Holy Place",
-            "uid": "merc_protecttheholyplace"
+            "uid": "merc_protecttheholyplace",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Mock Maneuvers",
-            "uid": "merc_mockmaneuvers"
+            "uid": "merc_mockmaneuvers",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Arrest Warrant",
-            "uid": "merc_arrestwarrant"
+            "uid": "merc_arrestwarrant",
+            "notes": ""
+        },
+        {
+            "area": "Gormott Province",
+            "name": "Rebel Purge",
+            "uid": "merc_rebelpurge",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Wine Delivery",
-            "uid": "merc_winedelivery"
+            "uid": "merc_winedelivery",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Phantom Fruit",
-            "uid": "merc_phantomfruit"
+            "uid": "merc_phantomfruit",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Weird Water",
-            "uid": "merc_weirdwater"
+            "uid": "merc_weirdwater",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Energy for Remodeling",
-            "uid": "merc_energyforremodeling"
+            "uid": "merc_energyforremodeling",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Manufacture Help",
-            "uid": "merc_manufacturehelp"
+            "uid": "merc_manufacturehelp",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Meet and Greet",
-            "uid": "merc_meetandgreet"
+            "uid": "merc_meetandgreet",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Chase Is On",
-            "uid": "merc_chaseison"
+            "uid": "merc_chaseison",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Turf War Protection",
-            "uid": "merc_turfwarprotection"
+            "uid": "merc_turfwarprotection",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Raddon Family",
-            "uid": "merc_raddonfamily"
+            "uid": "merc_raddonfamily",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Renowned Goods",
-            "uid": "merc_renownedgoods"
+            "uid": "merc_renownedgoods",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "The Water City",
-            "uid": "merc_thewatercity"
+            "uid": "merc_thewatercity",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Farming tech",
-            "uid": "merc_farmingtech"
+            "uid": "merc_farmingtech",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Shipbuilding Wood",
-            "uid": "merc_shipbuildingwood"
+            "uid": "merc_shipbuildingwood",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Craftsman's Skills",
-            "uid": "merc_craftsmansskills"
+            "uid": "merc_craftsmansskills",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Titan Shipbuilding",
-            "uid": "merc_titanshipbuilding"
+            "uid": "merc_titanshipbuilding",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Local Pop Star?",
-            "uid": "merc_localpopstar"
+            "uid": "merc_localpopstar",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Zenobia's Enemy 2",
-            "uid": "merc_zenobiasenemy2"
+            "uid": "merc_zenobiasenemy2",
+            "notes": ""
+        },
+        {
+            "area": "Gormott Province",
+            "name": "Tirkin Kountess 1",
+            "uid": "merc_tirkinkountess1",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Allies of Justice 2",
-            "uid": "merc_alliesofjustice2"
+            "uid": "merc_alliesofjustice2",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Got 'Em",
-            "uid": "merc_gotem"
+            "uid": "merc_gotem",
+            "notes": ""
         },
         {
             "area": "Gormott Province",
             "name": "Unreturnable Money",
-            "uid": "merc_unreturnablemoney"
+            "uid": "merc_unreturnablemoney",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Flotsam Inspection",
-            "uid": "merc_flotsaminspection"
+            "uid": "merc_flotsaminspection",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Lost and Found",
-            "uid": "merc_lostandfound"
+            "uid": "merc_lostandfound",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Containing the Chaos",
-            "uid": "merc_containingthechaos"
+            "uid": "merc_containingthechaos",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Beautiful Pearl",
-            "uid": "merc_beautifulpearl"
+            "uid": "merc_beautifulpearl",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Igna Investigation",
-            "uid": "merc_ignainvestigation"
+            "uid": "merc_ignainvestigation",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Rogue Miners",
-            "uid": "merc_rogueminers"
+            "uid": "merc_rogueminers",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Warehouse Work",
-            "uid": "merc_warehousework"
+            "uid": "merc_warehousework",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "King of the Spring",
-            "uid": "merc_kingofthespring"
+            "uid": "merc_kingofthespring",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Daily Training",
-            "uid": "merc_dailytraining"
+            "uid": "merc_dailytraining",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Giant Crab Attack",
-            "uid": "merc_giantcrabattack"
+            "uid": "merc_giantcrabattack",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Goods Transport",
-            "uid": "merc_goodstransport"
+            "uid": "merc_goodstransport",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Art Supplies",
-            "uid": "merc_artsupplies"
+            "uid": "merc_artsupplies",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Water Quality Check",
-            "uid": "merc_waterqualitycheck"
+            "uid": "merc_waterqualitycheck",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Wonderful Stage",
-            "uid": "merc_wonderfulstage"
+            "uid": "merc_wonderfulstage",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Road Repairs",
-            "uid": "merc_roadrepairs"
+            "uid": "merc_roadrepairs",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Rare Goods Repairs",
-            "uid": "merc_raregoodsrepairs"
+            "uid": "merc_raregoodsrepairs",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Fort Rescue",
-            "uid": "merc_fortrescue"
+            "uid": "merc_fortrescue",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Dream of Rice",
-            "uid": "merc_dreamofrice"
+            "uid": "merc_dreamofrice",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Source Security",
-            "uid": "merc_sourcesecurity"
+            "uid": "merc_sourcesecurity",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Invitation from Queen",
-            "uid": "merc_invitationfromqueen"
+            "uid": "merc_invitationfromqueen",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Rainbow Shell",
-            "uid": "merc_rainbowshell"
+            "uid": "merc_rainbowshell",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Fad Foods",
-            "uid": "merc_fadfoods"
+            "uid": "merc_fadfoods",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Bumper Crop",
-            "uid": "merc_bumpercrop"
+            "uid": "merc_bumpercrop",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Shipping Lanes Closed",
-            "uid": "merc_shippinglanesclosed"
+            "uid": "merc_shippinglanesclosed",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Secret Route",
-            "uid": "merc_secretroute"
+            "uid": "merc_secretroute",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Beneath the Cloud Sea",
-            "uid": "merc_beneaththecloudsea"
+            "uid": "merc_beneaththecloudsea",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Latest Craze",
-            "uid": "merc_latestcraze"
+            "uid": "merc_latestcraze",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Gormotti Fugitive",
-            "uid": "merc_gormottifugitive"
+            "uid": "merc_gormottifugitive",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Skillful Doctor",
-            "uid": "merc_skillfuldoctor"
+            "uid": "merc_skillfuldoctor",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Surveillance",
-            "uid": "merc_surveillance"
+            "uid": "merc_surveillance",
+            "notes": ""
+        },
+        {
+            "area": "Kingdom of Uraya",
+            "name": "Fashion Show",
+            "uid": "merc_fashionshow",
+            "notes": ""
+        },
+        {
+            "area": "Kingdom of Uraya",
+            "name": "Stage Star",
+            "uid": "merc_stagestar",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Herald Search",
-            "uid": "merc_heraldsearch"
+            "uid": "merc_heraldsearch",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Allies of Justice 1",
-            "uid": "merc_alliesofjustice1"
+            "uid": "merc_alliesofjustice1",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Allies of Justice 3",
-            "uid": "merc_alliesofjustice3"
+            "uid": "merc_alliesofjustice3",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Zenobia's Enemy 3",
-            "uid": "merc_zenobiasenemy3"
+            "uid": "merc_zenobiasenemy3",
+            "notes": ""
+        },
+        {
+            "area": "Kingdom of Uraya",
+            "name": "Tirkin Kountess 3",
+            "uid": "merc_tirkinkountess3",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Beautiful Flower",
-            "uid": "merc_beautifulflower"
+            "uid": "merc_beautifulflower",
+            "notes": ""
         },
         {
             "area": "Kingdom of Uraya",
             "name": "First Mission",
-            "uid": "merc_firstmission"
+            "uid": "merc_firstmission",
+            "notes": ""
+        },
+        {
+            "area": "Kingdom of Uraya",
+            "name": "Whose Pendant?",
+            "uid": "merc_whosependant",
+            "notes": ""
+        },
+        {
+            "area": "Kingdom of Uraya",
+            "name": "The Pendant's Owner",
+            "uid": "merc_thependantsowner",
+            "notes": ""
+        },
+        {
+            "area": "Kingdom of Uraya",
+            "name": "Document of Worth",
+            "uid": "merc_documentofworth",
+            "notes": ""
+        },
+        {
+            "area": "Kingdom of Uraya",
+            "name": "Bait Battle",
+            "uid": "merc_baitbattle",
+            "notes": ""
+        },
+        {
+            "area": "Kingdom of Uraya",
+            "name": "Everyone Loves Floren",
+            "uid": "merc_everyonelovesfloren",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Cooking Spices",
-            "uid": "merc_cookingspices"
+            "uid": "merc_cookingspices",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Lunch of Love",
-            "uid": "merc_lunchoflove"
+            "uid": "merc_lunchoflove",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Titan Weaponry",
-            "uid": "merc_titanweaponry"
+            "uid": "merc_titanweaponry",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "VIP Escort",
-            "uid": "merc_vipescort"
+            "uid": "merc_vipescort",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Pest Extermination",
-            "uid": "merc_pestextermination"
+            "uid": "merc_pestextermination",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Gondola Inspection",
-            "uid": "merc_gondolainspection"
+            "uid": "merc_gondolainspection",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Nopon Letter",
-            "uid": "merc_noponletter"
+            "uid": "merc_noponletter",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Antique Judgment",
-            "uid": "merc_antiquejudgment"
+            "uid": "merc_antiquejudgment",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Burned Wanted Posters",
-            "uid": "merc_burnedwantedposters"
+            "uid": "merc_burnedwantedposters",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Mining Machine",
-            "uid": "merc_miningmachine"
+            "uid": "merc_miningmachine",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Titan Research",
-            "uid": "merc_titanresearch"
+            "uid": "merc_titanresearch",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Longing for Mòrag",
-            "uid": "merc_longingformrag"
+            "uid": "merc_longingformrag",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Illegal Dumper",
-            "uid": "merc_illegaldumper"
+            "uid": "merc_illegaldumper",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Acquiring Rare Parts",
-            "uid": "merc_acquiringrareparts"
+            "uid": "merc_acquiringrareparts",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Street Patrols",
-            "uid": "merc_streetpatrols"
+            "uid": "merc_streetpatrols",
+            "notes": ""
+        },
+        {
+            "area": "Empire of Mor Ardain",
+            "name": "Scientific Development",
+            "uid": "merc_scientificdevelopment",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Hot Nopon",
-            "uid": "merc_hotnopon"
+            "uid": "merc_hotnopon",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Smuggler Arrest",
-            "uid": "merc_smugglerarrest"
+            "uid": "merc_smugglerarrest",
+            "notes": ""
+        },
+        {
+            "area": "Empire of Mor Ardain",
+            "name": "Lifeline to Temperantia",
+            "uid": "merc_lifelinetotemperantia",
+            "notes": "DLC"
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Volff Tricks",
-            "uid": "merc_volfftricks"
+            "uid": "merc_volfftricks",
+            "notes": "Cargo Transporation Zone"
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Spooky Spirits",
-            "uid": "merc_spookyspirits"
+            "uid": "merc_spookyspirits",
+            "notes": "Admar Storage Zone"
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Invitation from Emperor",
-            "uid": "merc_invitationfromemperor"
+            "uid": "merc_invitationfromemperor",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Secret Spice",
-            "uid": "merc_secretspice"
+            "uid": "merc_secretspice",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Shipyard Security",
-            "uid": "merc_shipyardsecurity"
+            "uid": "merc_shipyardsecurity",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Shipping Lane Safety",
-            "uid": "merc_shippinglanesafety"
+            "uid": "merc_shippinglanesafety",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "White and Cold",
-            "uid": "merc_whiteandcold"
+            "uid": "merc_whiteandcold",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Cold Storage",
-            "uid": "merc_coldstorage"
+            "uid": "merc_coldstorage",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Find Akatsuki",
-            "uid": "merc_findakatsuki"
+            "uid": "merc_findakatsuki",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Smuggle the Scholar",
-            "uid": "merc_smugglethescholar"
+            "uid": "merc_smugglethescholar",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Stolen Data",
-            "uid": "merc_stolendata"
+            "uid": "merc_stolendata",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Medicine Knowledge",
-            "uid": "merc_medicineknowledge"
+            "uid": "merc_medicineknowledge",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Brought to Justice 1",
-            "uid": "merc_broughttojustice1"
+            "uid": "merc_broughttojustice1",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Brought to Justice 2",
-            "uid": "merc_broughttojustice2"
+            "uid": "merc_broughttojustice2",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Brought to Justice 3",
-            "uid": "merc_broughttojustice3"
+            "uid": "merc_broughttojustice3",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Brought to Justice 4",
-            "uid": "merc_broughttojustice4"
+            "uid": "merc_broughttojustice4",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Unjust Organization",
-            "uid": "merc_unjustorganization"
+            "uid": "merc_unjustorganization",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "False Rumor",
-            "uid": "merc_falserumor"
+            "uid": "merc_falserumor",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Ambush",
-            "uid": "merc_ambush"
+            "uid": "merc_ambush",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Leg it!",
-            "uid": "merc_legit"
+            "uid": "merc_legit",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Summer Concert",
-            "uid": "merc_summerconcert"
+            "uid": "merc_summerconcert",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Sheba's Tea Party 1",
-            "uid": "merc_shebasteaparty1"
+            "uid": "merc_shebasteaparty1",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Sheba's Tea Party 2",
-            "uid": "merc_shebasteaparty2"
+            "uid": "merc_shebasteaparty2",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Sheba's Tea Party 3",
-            "uid": "merc_shebasteaparty3"
+            "uid": "merc_shebasteaparty3",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Sheba's Tea Party 4",
-            "uid": "merc_shebasteaparty4"
+            "uid": "merc_shebasteaparty4",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Sheba's Tea Party 5",
-            "uid": "merc_shebasteaparty5"
+            "uid": "merc_shebasteaparty5",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Zenobia's Enemy 4",
-            "uid": "merc_zenobiasenemy4"
+            "uid": "merc_zenobiasenemy4",
+            "notes": ""
+        },
+        {
+            "area": "Empire of Mor Ardain",
+            "name": "Tirkin Kountess 2",
+            "uid": "merc_tirkinkountess2",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Allies of Justice 5",
-            "uid": "merc_alliesofjustice5"
+            "uid": "merc_alliesofjustice5",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Round Up",
-            "uid": "merc_roundup"
+            "uid": "merc_roundup",
+            "notes": ""
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Materials Stakeout",
-            "uid": "merc_materialsstakeout"
+            "uid": "merc_materialsstakeout",
+            "notes": ""
         },
         {
             "area": "Leftherian Archipelago",
             "name": "Graveside Flowers",
-            "uid": "merc_gravesideflowers"
+            "uid": "merc_gravesideflowers",
+            "notes": ""
         },
         {
             "area": "Leftherian Archipelago",
             "name": "Heavy Angling",
-            "uid": "merc_heavyangling"
+            "uid": "merc_heavyangling",
+            "notes": ""
         },
         {
             "area": "Leftherian Archipelago",
             "name": "Lost Property",
-            "uid": "merc_lostproperty"
+            "uid": "merc_lostproperty",
+            "notes": ""
         },
         {
             "area": "Leftherian Archipelago",
             "name": "Field Pests",
-            "uid": "merc_fieldpests"
+            "uid": "merc_fieldpests",
+            "notes": ""
         },
         {
             "area": "Leftherian Archipelago",
             "name": "Taminbi Theft",
-            "uid": "merc_taminbitheft"
+            "uid": "merc_taminbitheft",
+            "notes": ""
         },
         {
             "area": "Leftherian Archipelago",
             "name": "Insect Professor",
-            "uid": "merc_insectprofessor"
+            "uid": "merc_insectprofessor",
+            "notes": ""
         },
         {
             "area": "Leftherian Archipelago",
             "name": "Parisax Extermination",
-            "uid": "merc_parisaxextermination"
+            "uid": "merc_parisaxextermination",
+            "notes": ""
         },
         {
             "area": "Leftherian Archipelago",
             "name": "Pending Payout",
-            "uid": "merc_pendingpayout"
+            "uid": "merc_pendingpayout",
+            "notes": ""
         },
         {
             "area": "Leftherian Archipelago",
             "name": "Shellfish Savior",
-            "uid": "merc_shellfishsavior"
+            "uid": "merc_shellfishsavior",
+            "notes": ""
         },
         {
             "area": "Leftherian Archipelago",
             "name": "Vessel Scrapping",
-            "uid": "merc_vesselscrapping"
+            "uid": "merc_vesselscrapping",
+            "notes": ""
         },
         {
             "area": "Leftherian Archipelago",
             "name": "Memory Bracelet",
-            "uid": "merc_memorybracelet"
+            "uid": "merc_memorybracelet",
+            "notes": ""
         },
         {
             "area": "Leftherian Archipelago",
             "name": "Rex's Condition",
-            "uid": "merc_rexscondition"
+            "uid": "merc_rexscondition",
+            "notes": ""
         },
         {
             "area": "Leftherian Archipelago",
             "name": "Research Results",
-            "uid": "merc_researchresults"
+            "uid": "merc_researchresults",
+            "notes": ""
         },
         {
             "area": "Leftherian Archipelago",
             "name": "Suspicious Ship",
-            "uid": "merc_suspiciousship"
+            "uid": "merc_suspiciousship",
+            "notes": ""
+        },
+        {
+            "area": "Leftherian Archipelago",
+            "name": "Dringworm Hunting",
+            "uid": "merc_dringwormhunting",
+            "notes": ""
         },
         {
             "area": "Leftherian Archipelago",
             "name": "Yashima Festival",
-            "uid": "merc_yashimafestival"
+            "uid": "merc_yashimafestival",
+            "notes": ""
         },
         {
             "area": "Leftherian Archipelago",
             "name": "Energy Investigation",
-            "uid": "merc_energyinvestigation"
+            "uid": "merc_energyinvestigation",
+            "notes": ""
+        },
+        {
+            "area": "Leftherian Archipelago",
+            "name": "Night Visitors",
+            "uid": "merc_nightvisitors",
+            "notes": ""
         },
         {
             "area": "Leftherian Archipelago",
             "name": "Elpys Investigation",
-            "uid": "merc_elpysinvestigation"
+            "uid": "merc_elpysinvestigation",
+            "notes": ""
         },
         {
             "area": "Leftherian Archipelago",
             "name": "Cloud Sea Noises",
-            "uid": "merc_cloudseanoises"
+            "uid": "merc_cloudseanoises",
+            "notes": ""
+        },
+        {
+            "area": "Leftherian Archipelago",
+            "name": "Direct Line Escort",
+            "uid": "merc_directlineescort",
+            "notes": "Time is Money Quest"
         },
         {
             "area": "Leftherian Archipelago",
             "name": "The Beast of Regideria",
-            "uid": "merc_thebeastofregideria"
+            "uid": "merc_thebeastofregideria",
+            "notes": ""
         },
         {
             "area": "Leftherian Archipelago",
             "name": "Holy Choir",
-            "uid": "merc_holychoir"
+            "uid": "merc_holychoir",
+            "notes": ""
         },
         {
             "area": "Leftherian Archipelago",
             "name": "Benefit Concert",
-            "uid": "merc_benefitconcert"
+            "uid": "merc_benefitconcert",
+            "notes": ""
         },
         {
             "area": "Leftherian Archipelago",
             "name": "Nopon Cooking",
-            "uid": "merc_noponcooking"
+            "uid": "merc_noponcooking",
+            "notes": ""
         },
         {
             "area": "Leftherian Archipelago",
             "name": "Merchant Ship",
-            "uid": "merc_merchantship"
+            "uid": "merc_merchantship",
+            "notes": ""
         },
         {
             "area": "Leftherian Archipelago",
             "name": "Ship Lane Lighting",
-            "uid": "merc_shiplanelighting"
+            "uid": "merc_shiplanelighting",
+            "notes": ""
         },
         {
             "area": "Leftherian Archipelago",
             "name": "Wagon Guard",
-            "uid": "merc_wagonguard"
+            "uid": "merc_wagonguard",
+            "notes": ""
         },
         {
             "area": "Leftherian Archipelago",
             "name": "Sinking Storehouse?",
-            "uid": "merc_sinkingstorehouse"
+            "uid": "merc_sinkingstorehouse",
+            "notes": ""
         },
         {
             "area": "Leftherian Archipelago",
             "name": "Allies of Justice 4",
-            "uid": "merc_alliesofjustice4"
+            "uid": "merc_alliesofjustice4",
+            "notes": ""
         },
         {
             "area": "Leftherian Archipelago",
             "name": "Can't Escape",
-            "uid": "merc_cantescape"
+            "uid": "merc_cantescape",
+            "notes": ""
         },
         {
             "area": "Leftherian Archipelago",
             "name": "Obstinate Pursuit",
-            "uid": "merc_obstinatepursuit"
+            "uid": "merc_obstinatepursuit",
+            "notes": ""
         },
         {
             "area": "Kingdom of Tantal",
             "name": "Children's Snowsuit",
-            "uid": "merc_childrenssnowsuit"
+            "uid": "merc_childrenssnowsuit",
+            "notes": ""
         },
         {
             "area": "Kingdom of Tantal",
             "name": "Snow Removal",
-            "uid": "merc_snowremoval"
+            "uid": "merc_snowremoval",
+            "notes": ""
         },
         {
             "area": "Kingdom of Tantal",
             "name": "Exiting Tantal",
-            "uid": "merc_exitingtantal"
+            "uid": "merc_exitingtantal",
+            "notes": ""
         },
         {
             "area": "Kingdom of Tantal",
             "name": "Warming Stralu",
-            "uid": "merc_warmingstralu"
+            "uid": "merc_warmingstralu",
+            "notes": ""
         },
         {
             "area": "Kingdom of Tantal",
             "name": "Snow Flower",
-            "uid": "merc_snowflower"
+            "uid": "merc_snowflower",
+            "notes": ""
         },
         {
             "area": "Kingdom of Tantal",
             "name": "Carnivorous Beast",
-            "uid": "merc_carnivorousbeast"
+            "uid": "merc_carnivorousbeast",
+            "notes": ""
         },
         {
             "area": "Kingdom of Tantal",
             "name": "New Book",
-            "uid": "merc_newbook"
+            "uid": "merc_newbook",
+            "notes": ""
         },
         {
             "area": "Kingdom of Tantal",
             "name": "Blizzard Zone",
-            "uid": "merc_blizzardzone"
+            "uid": "merc_blizzardzone",
+            "notes": ""
         },
         {
             "area": "Kingdom of Tantal",
             "name": "Cold-Proof Crops",
-            "uid": "merc_coldproofcrops"
+            "uid": "merc_coldproofcrops",
+            "notes": ""
         },
         {
             "area": "Kingdom of Tantal",
             "name": "The Black Market",
-            "uid": "merc_theblackmarket"
+            "uid": "merc_theblackmarket",
+            "notes": ""
         },
         {
             "area": "Kingdom of Tantal",
             "name": "Dandes Salt Cave",
-            "uid": "merc_dandessaltcave"
+            "uid": "merc_dandessaltcave",
+            "notes": ""
         },
         {
             "area": "Kingdom of Tantal",
             "name": "Snow Survey",
-            "uid": "merc_snowsurvey"
+            "uid": "merc_snowsurvey",
+            "notes": ""
         },
         {
             "area": "Kingdom of Tantal",
             "name": "Shaking Icicles",
-            "uid": "merc_shakingicicles"
+            "uid": "merc_shakingicicles",
+            "notes": ""
         },
         {
             "area": "Kingdom of Tantal",
             "name": "Confidential Documents",
-            "uid": "merc_confidentialdocuments"
+            "uid": "merc_confidentialdocuments",
+            "notes": ""
         },
         {
             "area": "Kingdom of Tantal",
             "name": "Book Writing",
-            "uid": "merc_bookwriting"
+            "uid": "merc_bookwriting",
+            "notes": ""
         },
         {
             "area": "Kingdom of Tantal",
             "name": "World in a Book",
-            "uid": "merc_worldinabook"
+            "uid": "merc_worldinabook",
+            "notes": ""
         },
         {
             "area": "Kingdom of Tantal",
             "name": "Ice Hunter",
-            "uid": "merc_icehunter"
+            "uid": "merc_icehunter",
+            "notes": ""
         },
         {
             "area": "Kingdom of Tantal",
             "name": "Mysterious Lifeform",
-            "uid": "merc_mysteriouslifeform"
+            "uid": "merc_mysteriouslifeform",
+            "notes": ""
+        },
+        {
+            "area": "Kingdom of Tantal",
+            "name": "Crossing Bridges",
+            "uid": "merc_crossingbridges",
+            "notes": "DLC"
         },
         {
             "area": "Kingdom of Tantal",
             "name": "Frozen Door",
-            "uid": "merc_frozendoor"
+            "uid": "merc_frozendoor",
+            "notes": ""
         },
         {
             "area": "Kingdom of Tantal",
             "name": "Weathered Ship",
-            "uid": "merc_weatheredship"
+            "uid": "merc_weatheredship",
+            "notes": ""
         },
         {
             "area": "Kingdom of Tantal",
             "name": "Cuisine Researcher",
-            "uid": "merc_cuisineresearcher"
+            "uid": "merc_cuisineresearcher",
+            "notes": ""
         },
         {
             "area": "Kingdom of Tantal",
             "name": "Beat the Heat",
-            "uid": "merc_beattheheat"
+            "uid": "merc_beattheheat",
+            "notes": ""
         },
         {
             "area": "Kingdom of Tantal",
             "name": "Crafty Developments",
-            "uid": "merc_craftydevelopments"
+            "uid": "merc_craftydevelopments",
+            "notes": ""
+        },
+        {
+            "area": "Kingdom of Tantal",
+            "name": "Tirkin Kountess 4",
+            "uid": "merc_tirkinkountess4",
+            "notes": ""
         },
         {
             "area": "Kingdom of Tantal",
             "name": "Allies of Justice 6",
-            "uid": "merc_alliesofjustice6"
+            "uid": "merc_alliesofjustice6",
+            "notes": ""
         },
         {
             "area": "Kingdom of Tantal",
             "name": "Fake Vase",
-            "uid": "merc_fakevase"
+            "uid": "merc_fakevase",
+            "notes": ""
         }
     ],
     "quests": [
@@ -2054,7 +2396,7 @@
             "area": "Kingdom of Uraya",
             "giver": "Ragi",
             "location": "Farlaine Central Pools",
-            "name": "Gotta Start Somewhere",
+            "name": "Gotta Start Somewhere!",
             "prereqs": "",
             "uid": "q_gottastartsomewhere"
         },
