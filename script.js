@@ -8,6 +8,16 @@ if (store == null) {
     store = new Set(store);
 }
 
+function saveStore() {
+    localStorage.setItem("xc2-checklist", JSON.stringify([...store]));
+}
+
+function resetAll() {
+    store.clear();
+    $("tr[data-uniqueid]").removeClass(highlight);
+    saveStore();
+}
+
 function toggleElement(e) {
     var id = $(e).attr("data-uniqueid");
     if (store.has(id)) {
@@ -18,7 +28,7 @@ function toggleElement(e) {
         $(e).addClass(highlight);
     }
 
-    localStorage.setItem("xc2-checklist", JSON.stringify([...store]));
+    saveStore();
 }
 
 var tables = ["quests","quests-dlc","quests-blade","blades","shopdeeds","uniquemonsters","secretareas","expman","bspon","foorara","doubloons"];
@@ -139,5 +149,9 @@ $(function() {
             striped: true,
             columns: defs["trust-col"]
         });
+    });
+
+    $("#reset-yes").click(function() {
+        resetAll();
     });
 });
