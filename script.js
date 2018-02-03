@@ -31,12 +31,12 @@ function toggleElement(e) {
     saveStore();
 }
 
-var tables = ["quests","quests-dlc","quests-blade","blades","shopdeeds","uniquemonsters","secretareas","expman","bspon","foorara","doubloons"];
+var tables = ["quests","quests-dlc","quests-blade","blades","shopdeeds","uniquemonsters","mercmissions","secretareas","expman","bspon","foorara","doubloons"];
 var defs = {
     "quests-fil": true,
     "quests-col":
     [{field:'name',title:'Name',sortable:true,filterControl:'input',filterStrictSearch:false},
-    {field:'area',title:'Area',sortable:true,filterControl:'select',filterStrictSearch:true},
+    {field:'area',title:'Area',sortable:true,filterControl:'input',filterStrictSearch:false},
     {field:'location',title:'Location',sortable:true,filterControl:'input',filterStrictSearch:false},
     {field:'giver',title:'Giver',sortable:true,filterControl:'input',filterStrictSearch:false},
     {field:'prereqs',title:'Prerequisites',sortable:false,filterControl:'input',filterStrictSearch:false}],
@@ -64,7 +64,7 @@ var defs = {
     "shopdeeds-fil": true,
     "shopdeeds-col":
     [{field:'shop',title:'Shop',sortable:true,filterControl:'input',filterStrictSearch:false},
-    {field:'area',title:'Area',sortable:true,filterControl:'select',filterStrictSearch:true},
+    {field:'area',title:'Area',sortable:true,filterControl:'input',filterStrictSearch:false},
     {field:'benefit',title:'Benefit',sortable:true,filterControl:'input',filterStrictSearch:false},
     {field:'numitems',title:'# of Items Sold',sortable:true,filterControl:'select',filterStrictSearch:true},
     {field:'merc',title:'Required Merc Mission(s)',sortable:true,filterControl:'input',filterStrictSearch:false}],
@@ -76,6 +76,10 @@ var defs = {
     {field:'nation',title:'Nation',sortable:true,filterControl:'input',filterStrictSearch:false},
     {field:'location',title:'Location',sortable:true,filterControl:'input',filterStrictSearch:false},
     {field:'spawntime',title:'Spawntime',sortable:true,filterControl:'input',filterStrictSearch:false}],
+    "mercmissions-fil": true,
+    "mercmissions-col":
+    [{field:'name',title:'Name',sortable:true,filterControl:'input',filterStrictSearch:false},
+    {field:'area',title:'Area',sortable:true,filterControl:'input',filterStrictSearch:false}],
     "secretareas-fil": false,
     "secretareas-col":
     [{field:'name',title:'Name',sortable:true},
