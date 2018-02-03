@@ -402,10 +402,10 @@
             "uid": "doubloon_10"
         },
         {
-            "description": "Secret Area. Accessed from Highway 8 using the Street sign. Requires Lv. 8 Earth Mastery and Lv. 5 Superstrength.",
+            "description": "Under View of a Lost Time secret area. Accessed from Highway 8 using the Street sign. Requires Lv. 8 Earth Mastery and Lv. 5 Superstrength.",
             "id": 11,
             "location": "Land of Morytha (Streets)",
-            "mark": "View of a Lost Time",
+            "mark": "Genome Center",
             "uid": "doubloon_11"
         }
     ],
