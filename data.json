@@ -1666,7 +1666,7 @@
             "area": "Empire of Mor Ardain",
             "name": "Materials Stakeout",
             "uid": "merc_materialsstakeout",
-            "notes": ""
+            "notes": "Optional. Can be skipped if Field Skill checks are passed during Lila's Location main story quest."
         },
         {
             "area": "Leftherian Archipelago",
