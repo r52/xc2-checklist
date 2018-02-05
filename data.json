@@ -2879,7 +2879,7 @@
             "description": "",
             "location": "Kingdom of Uraya (Royal Guard Barracks)",
             "name": "Blade-Sharp Memory",
-            "prereqs": "Chapter 7, Crystal Clear, Praxis Lv. 4 Affinity, Praxis Lv. 3 Fierce Deluge",
+            "prereqs": "Chapter 7, Crystal Clear, Praxis Lv. 4 Affinity",
             "uid": "q_theory"
         },
         {
