@@ -34,7 +34,7 @@ function toggleElement(e, counterElement) {
     saveStore();
 }
 
-var tables = ["quests", "quests-dlc", "quests-blade", "blades", "shopdeeds", "uniquemonsters", "mercmissions", "secretareas", "expman", "bspon", "foorara", "doubloons"];
+var tables = ["quests", "quests-dlc", "quests-blade", "blades", "blades-ng", "shopdeeds", "uniquemonsters", "mercmissions", "secretareas", "expman", "bspon", "foorara", "doubloons"];
 var defs = {
     "quests-fil": true,
     "quests-col": [{
@@ -138,6 +138,50 @@ var defs = {
     ],
     "blades-fil": true,
     "blades-col": [{
+            field: 'blade',
+            title: 'Blade',
+            sortable: true,
+            filterControl: 'input',
+            filterStrictSearch: false
+        },
+        {
+            field: 'role',
+            title: 'Role',
+            sortable: true,
+            filterControl: 'select',
+            filterStrictSearch: true
+        },
+        {
+            field: 'stat',
+            title: 'Stat Modifier',
+            sortable: true,
+            filterControl: 'input',
+            filterStrictSearch: false
+        },
+        {
+            field: 'weapon',
+            title: 'Weapon',
+            sortable: true,
+            filterControl: 'select',
+            filterStrictSearch: true
+        },
+        {
+            field: 'element',
+            title: 'Element',
+            sortable: true,
+            filterControl: 'select',
+            filterStrictSearch: true
+        },
+        {
+            field: 'acquisition',
+            title: 'Acquisition',
+            sortable: true,
+            filterControl: 'input',
+            filterStrictSearch: false
+        }
+    ],
+    "blades-ng-fil": true,
+    "blades-ng-col": [{
             field: 'blade',
             title: 'Blade',
             sortable: true,
