@@ -18,14 +18,17 @@ function resetAll() {
     saveStore();
 }
 
-function toggleElement(e) {
+function toggleElement(e, counterElement) {
     var id = $(e).attr("data-uniqueid");
+    var currentCounter = parseInt($(counterElement).text(), 10);
     if (store.has(id)) {
         store.delete(id);
         $(e).removeClass(highlight);
+        $(counterElement).text(currentCounter - 1);
     } else {
         store.add(id);
         $(e).addClass(highlight);
+        $(counterElement).text(currentCounter + 1);
     }
 
     saveStore();
@@ -418,6 +421,10 @@ $(function() {
 
         // craft tables
         for (let tab of tables) {
+            function counterId(tab) {
+                return tab + "-completed-counter";
+            };
+
             (function(t) {
                 $('#' + t + '-table').bootstrapTable({
                     data: data[t],
@@ -427,14 +434,24 @@ $(function() {
                     hideUnusedSelectOptions: true,
                     columns: defs[t + "-col"],
                     onClickRow: function(row, $element, field) {
-                        toggleElement($element);
+                        var currentTab = $element.parents("div.tab-pane").attr("id");
+                        toggleElement($element, $("#" + counterId(currentTab)));
                     },
                     onPostBody: function(data) {
+                        var completedCount = 0;
                         data.forEach(function(element) {
                             if (store.has(element.uid)) {
+                                ++completedCount;
                                 $("tr[data-uniqueid='" + element.uid + "']").addClass(highlight);
                             }
                         });
+                        var counterString =
+                            " (<span id=\"" + counterId(tab) + "\">" +
+                            completedCount +
+                            "</span>/" +
+                            data.length +
+                            ")";
+                        $("h3#" + tab + "-header").append(counterString);
                     }
                 });
             })(tab);
