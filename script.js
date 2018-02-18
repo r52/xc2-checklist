@@ -15,6 +15,7 @@ function saveStore() {
 function resetAll() {
     store.clear();
     $("tr[data-uniqueid]").removeClass(highlight);
+    $("span[id$='completed-counter']").text("0");
     saveStore();
 }
 
@@ -463,12 +464,12 @@ $(function() {
     $.getJSON('data.min.json', function(j) {
         data = j;
 
+        function counterId(c) {
+            return c + "-completed-counter";
+        };
+
         // craft tables
         for (let tab of tables) {
-            function counterId(tab) {
-                return tab + "-completed-counter";
-            };
-
             (function(t) {
                 $('#' + t + '-table').bootstrapTable({
                     data: data[t],
@@ -478,8 +479,7 @@ $(function() {
                     hideUnusedSelectOptions: true,
                     columns: defs[t + "-col"],
                     onClickRow: function(row, $element, field) {
-                        var currentTab = $element.parents("div.tab-pane").attr("id");
-                        toggleElement($element, $("#" + counterId(currentTab)));
+                        toggleElement($element, $("#" + counterId(t)));
                     },
                     onPostBody: function(data) {
                         var completedCount = 0;
@@ -490,12 +490,12 @@ $(function() {
                             }
                         });
                         var counterString =
-                            " (<span id=\"" + counterId(tab) + "\">" +
+                            " (<span id=\"" + counterId(t) + "\">" +
                             completedCount +
                             "</span>/" +
                             data.length +
                             ")";
-                        $("h3#" + tab + "-header").append(counterString);
+                        $("h3#" + t + "-header").append(counterString);
                     }
                 });
             })(tab);
