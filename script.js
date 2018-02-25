@@ -464,10 +464,6 @@ $(function() {
     $.getJSON('data.min.json', function(j) {
         data = j;
 
-        function counterId(c) {
-            return c + "-completed-counter";
-        };
-
         // craft tables
         for (let tab of tables) {
             (function(t) {
@@ -479,7 +475,7 @@ $(function() {
                     hideUnusedSelectOptions: true,
                     columns: defs[t + "-col"],
                     onClickRow: function(row, $element, field) {
-                        toggleElement($element, $("#" + counterId(t)));
+                        toggleElement($element, $("#" + t + "-completed-counter"));
                     },
                     onPostBody: function(data) {
                         var completedCount = 0;
@@ -490,7 +486,7 @@ $(function() {
                             }
                         });
                         var counterString =
-                            " (<span id=\"" + counterId(t) + "\">" +
+                            " (<span id=\"" + t + "-completed-counter" + "\">" +
                             completedCount +
                             "</span>/" +
                             data.length +
