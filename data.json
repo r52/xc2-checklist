@@ -248,65 +248,65 @@
         {
             "acquisition": "Random/Quest",
             "blade": "Obrona",
-            "element": "?",
-            "role": "?",
-            "stat": "?",
+            "element": "Electric",
+            "role": "Attacker",
+            "stat": "Agility 20%",
             "uid": "bl_obrona",
-            "weapon": "?"
+            "weapon": "Brilliant Twinblades"
         },
         {
             "acquisition": "Random/Quest",
             "blade": "Sever",
-            "element": "?",
-            "role": "?",
-            "stat": "?",
+            "element": "Wind",
+            "role": "Tank",
+            "stat": "Strength 15%",
             "uid": "bl_sever",
-            "weapon": "?"
+            "weapon": "Sword Tonfa"
         },
         {
             "acquisition": "Random/Quest",
             "blade": "Perdido",
-            "element": "?",
-            "role": "?",
-            "stat": "?",
+            "element": "Fire",
+            "role": "Attacker",
+            "stat": "Strength 10%",
             "uid": "bl_perdido",
-            "weapon": "?"
+            "weapon": "Decimation Cannon"
         },
         {
             "acquisition": "Random/Quest",
             "blade": "Cressidus",
-            "element": "?",
-            "role": "?",
-            "stat": "?",
+            "element": "Earth",
+            "role": "Tank",
+            "stat": "Max HP 20%",
             "uid": "bl_cressidus",
-            "weapon": "?"
+            "weapon": "Rockrending Gauntlets"
         },
         {
             "acquisition": "Random/Quest",
             "blade": "Akhos",
-            "element": "?",
-            "role": "?",
-            "stat": "?",
+            "element": "Electric",
+            "role": "Healer",
+            "stat": "Ether 15%",
             "uid": "bl_akhos",
-            "weapon": "?"
+            "weapon": "Calamity Scythe"
         },
         {
             "acquisition": "Random/Quest",
             "blade": "Patroka",
-            "element": "?",
-            "role": "?",
-            "stat": "?",
+            "element": "Earth",
+            "role": "Attacker",
+            "stat": "Strength 15%",
             "uid": "bl_patroka",
-            "weapon": "?"
+            "weapon": "Cobra Bardiche"
         },
         {
-            "acquisition": "Random/Quest",
+            "acquisition": "Quest",
             "blade": "Mikhail",
-            "element": "?",
-            "role": "?",
-            "stat": "?",
+            "element": "Dark",
+            "role": "Tank",
+            "stat": "Agility 15%",
             "uid": "bl_mikhail",
-            "weapon": "?"
+            "weapon": "Infinity Fans"
         }
     ],
     "bspon": [
