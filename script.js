@@ -475,7 +475,7 @@ $(function() {
                     hideUnusedSelectOptions: true,
                     columns: defs[t + "-col"],
                     onClickRow: function(row, $element, field) {
-                        toggleElement($element, $("#" + t + "-completed-counter"));
+                        toggleElement($element, $("#" + t + "-completed"));
                     },
                     onPostBody: function(data) {
                         var completedCount = 0;
@@ -485,13 +485,8 @@ $(function() {
                                 $("tr[data-uniqueid='" + element.uid + "']").addClass(highlight);
                             }
                         });
-                        var counterString =
-                            " (<span id=\"" + t + "-completed-counter" + "\">" +
-                            completedCount +
-                            "</span>/" +
-                            data.length +
-                            ")";
-                        $("h3#" + t + "-header").append(counterString);
+                        $("#" + t + "-completed").text(completedCount);
+                        $("#" + t + "-total").text(data.length);
                     }
                 });
             })(tab);
