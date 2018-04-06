@@ -3022,39 +3022,74 @@
     ],
     "quests-dlc": [
         {
-            "description": "",
+            "description": "V1.2.0",
             "location": "Gormott Province (Garagorm's Arch)",
             "name": "Passion of the Artisan",
             "prereqs": "From Ch. 2",
             "uid": "qdlc_artisan"
         },
         {
-            "description": "",
+            "description": "V1.3.1",
+            "location": "Gormott Province (Galad Residential Zone)",
+            "name": "Nopon of Good Tastes",
+            "prereqs": "From Ch. 2",
+            "uid": "qdlc_nopongoodtastes"
+        },
+        {
+            "description": "V1.2.0",
             "location": "Kindgom of Uraya (Drillbore Bridge)",
             "name": "M.I.A. Nopon",
             "prereqs": "From Ch. 3",
             "uid": "qdlc_nopon"
         },
         {
-            "description": "",
+            "description": "V1.2.0",
             "location": "Empire of Mor Ardain (Port Anangham)",
             "name": "Industrial Sort of Tour",
             "prereqs": "From Ch. 5",
             "uid": "qdlc_industrialtour"
         },
         {
-            "description": "",
+            "description": "V1.3.1",
+            "location": "Leftherian Archipelago (Fonsett Island)",
+            "name": "Cleared of All Charges",
+            "prereqs": "From Ch. 5, have Perun, Godfrey and Perceval",
+            "uid": "qdlc_cleardcharges"
+        },
+        {
+            "description": "V1.3.1",
+            "location": "Leftherian Archipelago (Rigitte Harbor)",
+            "name": "Beneath the Aurora",
+            "prereqs": "From Ch. 6",
+            "uid": "qdlc_beneathaurora"
+        },
+        {
+            "description": "V1.2.0",
             "location": "Empire of Mor Ardain (Nharil Central Plaza)",
             "name": "Midnight Feasting",
             "prereqs": "From Ch. 7",
             "uid": "qdlc_midnightfeasting"
         },
         {
-            "description": "",
+            "description": "V1.3.1",
+            "location": "Gormott Province (Tora's House)",
+            "name": "Upgrades and Tinkering",
+            "prereqs": "From Ch. 8",
+            "uid": "qdlc_upgradestinkering"
+        },
+        {
+            "description": "V1.2.0",
             "location": "Empire of Mor Ardain (Hardhaigh Dock, Lv. 2)",
             "name": "The Lone Watchman",
             "prereqs": "From Ch. 10",
             "uid": "qdlc_lonewatchmen"
+        },
+        {
+            "description": "V1.3.1",
+            "location": "Kingdom of Tantal (Theosoir)",
+            "name": "Most Awful News?!",
+            "prereqs": "From Ch. 10, Finch Lv. 3 Birdbrain",
+            "uid": "qdlc_mostawfulnews"
         }
     ],
     "secretareas": [
