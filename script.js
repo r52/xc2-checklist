@@ -225,6 +225,50 @@ var defs = {
             filterStrictSearch: false
         }
     ],
+    "blades-dlc-fil": true,
+    "blades-dlc-col": [{
+            field: 'blade',
+            title: 'Blade',
+            sortable: true,
+            filterControl: 'input',
+            filterStrictSearch: false
+        },
+        {
+            field: 'role',
+            title: 'Role',
+            sortable: true,
+            filterControl: 'select',
+            filterStrictSearch: true
+        },
+        {
+            field: 'stat',
+            title: 'Stat Modifier',
+            sortable: true,
+            filterControl: 'input',
+            filterStrictSearch: false
+        },
+        {
+            field: 'weapon',
+            title: 'Weapon',
+            sortable: true,
+            filterControl: 'select',
+            filterStrictSearch: true
+        },
+        {
+            field: 'element',
+            title: 'Element',
+            sortable: true,
+            filterControl: 'select',
+            filterStrictSearch: true
+        },
+        {
+            field: 'acquisition',
+            title: 'Acquisition',
+            sortable: true,
+            filterControl: 'input',
+            filterStrictSearch: false
+        }
+    ],
     "shopdeeds-fil": true,
     "shopdeeds-col": [{
             field: 'shop',
