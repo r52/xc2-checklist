@@ -35,7 +35,7 @@ function toggleElement(e, counterElement) {
     saveStore();
 }
 
-var tables = ["quests", "quests-dlc", "quests-blade", "blades", "blades-ng", "shopdeeds", "uniquemonsters", "mercmissions", "secretareas", "expman", "bspon", "foorara", "doubloons"];
+var tables = ["quests", "quests-dlc", "quests-blade", "blades", "blades-ng", "blades-dlc", "shopdeeds", "uniquemonsters", "mercmissions", "secretareas", "expman", "bspon", "foorara", "doubloons"];
 var defs = {
     "quests-fil": true,
     "quests-col": [{

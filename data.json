@@ -246,7 +246,7 @@
     ],
     "blades-ng": [
         {
-            "acquisition": "Random/Quest",
+            "acquisition": "Random",
             "blade": "Obrona",
             "element": "Electric",
             "role": "Attacker",
@@ -255,7 +255,7 @@
             "weapon": "Brilliant Twinblades"
         },
         {
-            "acquisition": "Random/Quest",
+            "acquisition": "Random",
             "blade": "Sever",
             "element": "Wind",
             "role": "Tank",
@@ -264,7 +264,7 @@
             "weapon": "Sword Tonfa"
         },
         {
-            "acquisition": "Random/Quest",
+            "acquisition": "Random",
             "blade": "Perdido",
             "element": "Fire",
             "role": "Attacker",
@@ -273,7 +273,7 @@
             "weapon": "Decimation Cannon"
         },
         {
-            "acquisition": "Random/Quest",
+            "acquisition": "Random",
             "blade": "Cressidus",
             "element": "Earth",
             "role": "Tank",
@@ -282,7 +282,7 @@
             "weapon": "Rockrending Gauntlets"
         },
         {
-            "acquisition": "Random/Quest",
+            "acquisition": "Random",
             "blade": "Akhos",
             "element": "Electric",
             "role": "Healer",
@@ -291,7 +291,7 @@
             "weapon": "Calamity Scythe"
         },
         {
-            "acquisition": "Random/Quest",
+            "acquisition": "Random",
             "blade": "Patroka",
             "element": "Earth",
             "role": "Attacker",
@@ -300,13 +300,33 @@
             "weapon": "Cobra Bardiche"
         },
         {
-            "acquisition": "Quest",
+            "acquisition": "Talk to him at Megaflote Base",
             "blade": "Mikhail",
             "element": "Dark",
             "role": "Tank",
             "stat": "Agility 15%",
             "uid": "bl_mikhail",
             "weapon": "Infinity Fans"
+        },
+        {
+            "acquisition": "Random",
+            "blade": "T-elos",
+            "element": "Dark",
+            "role": "Attacker",
+            "stat": "Strength 15%",
+            "uid": "bl_telos",
+            "weapon": "Greataxe"
+        }
+    ],
+    "blades-dlc": [
+        {
+            "acquisition": "Shiny New Power (DLC Quest)",
+            "blade": "Poppibuster",
+            "element": "Light",
+            "role": "Tank",
+            "stat": "Agility 15%",
+            "uid": "bl_poppibuster",
+            "weapon": "Shield Hammer"
         }
     ],
     "bspon": [
