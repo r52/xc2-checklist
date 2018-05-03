@@ -3038,6 +3038,14 @@
             "name": "Tranquility",
             "prereqs": "Chapter 4, Daytime only",
             "uid": "q_vess"
+        },
+        {
+            "blade": "T-elos",
+            "description": "New Game+",
+            "location": "Kingdom of Uraya (Olethro Ruins)",
+            "name": "Lingering Resentment",
+            "prereqs": "Main story completed",
+            "uid": "q_telos"
         }
     ],
     "quests-dlc": [
