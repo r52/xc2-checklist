@@ -49,7 +49,7 @@ var defs = {
             field: 'area',
             title: 'Area',
             sortable: true,
-            filterControl: 'input',
+            filterControl: 'select',
             filterStrictSearch: false
         },
         {
@@ -332,7 +332,7 @@ var defs = {
             field: 'nation',
             title: 'Nation',
             sortable: true,
-            filterControl: 'input',
+            filterControl: 'select',
             filterStrictSearch: false
         },
         {
@@ -362,7 +362,7 @@ var defs = {
             field: 'area',
             title: 'Area',
             sortable: true,
-            filterControl: 'input',
+            filterControl: 'select',
             filterStrictSearch: false
         },
         {
