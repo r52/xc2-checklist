@@ -35,7 +35,7 @@ function toggleElement(e, counterElement) {
     saveStore();
 }
 
-var tables = ["quests", "quests-dlc", "quests-blade", "blades", "blades-ng", "blades-dlc", "shopdeeds", "uniquemonsters", "mercmissions", "secretareas", "expman", "bspon", "foorara", "doubloons"];
+var tables = ["quests", "quests-dlc", "quests-blade", "blades", "blades-ng", "blades-dlc", "shopdeeds", "uniquemonsters", "hearttoheart", "mercmissions", "secretareas", "expman", "bspon", "foorara", "doubloons"];
 var defs = {
     "quests-fil": true,
     "quests-col": [{
@@ -345,6 +345,43 @@ var defs = {
         {
             field: 'spawntime',
             title: 'Spawntime',
+            sortable: true,
+            filterControl: 'input',
+            filterStrictSearch: false
+        }
+    ],
+    "hearttoheart-fil": true,
+    "hearttoheart-col": [{
+            field: 'name',
+            title: 'Name',
+            sortable: true,
+            filterControl: 'input',
+            filterStrictSearch: false
+        },
+        {
+            field: 'area',
+            title: 'Area',
+            sortable: true,
+            filterControl: 'select',
+            filterStrictSearch: true
+        },
+        {
+            field: 'location',
+            title: 'Location',
+            sortable: true,
+            filterControl: 'input',
+            filterStrictSearch: false
+        },
+        {
+            field: 'party',
+            title: 'Party',
+            sortable: true,
+            filterControl: 'input',
+            filterStrictSearch: false
+        },
+        {
+            field: 'notes',
+            title: 'Notes',
             sortable: true,
             filterControl: 'input',
             filterStrictSearch: false
