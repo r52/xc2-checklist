@@ -3118,6 +3118,13 @@
             "name": "Most Awful News?!",
             "prereqs": "From Ch. 10, Finch Lv. 3 Birdbrain",
             "uid": "qdlc_mostawfulnews"
+        },
+        {
+            "description": "V1.4.0",
+            "location": "Gormott Province (Tora's House)",
+            "name": "Shiny New Power",
+            "prereqs": "From Ch. 6",
+            "uid": "qdlc_shinynewpower"
         }
     ],
     "secretareas": [
