@@ -832,7 +832,7 @@
         {
             "area": "Argentum Trade Guild",
             "name": "Titan Battleship Fixes",
-            "notes": "DLC",
+            "notes": "Unlocks after completing DLC quest \"The Lone Watchman\"",
             "uid": "merc_titanbattleshipfixes"
         },
         {
@@ -1564,7 +1564,7 @@
         {
             "area": "Empire of Mor Ardain",
             "name": "Lifeline to Temperantia",
-            "notes": "DLC",
+            "notes": "Unlocks after completing DLC quest \"The Lone Watchman\"",
             "uid": "merc_lifelinetotemperantia"
         },
         {
@@ -1946,6 +1946,24 @@
             "uid": "merc_obstinatepursuit"
         },
         {
+            "area": "Leftherian Archipelago",
+            "name": "Catch a Crook",
+            "notes": "Part of \"Cleared of All Charges\" DLC quest",
+            "uid": "merc_catchacrook"
+        },
+        {
+            "area": "Leftherian Archipelago",
+            "name": "Guard the Field",
+            "notes": "Part of \"Cleared of All Charges\" DLC quest",
+            "uid": "merc_guarddthefield"
+        },
+        {
+            "area": "Leftherian Archipelago",
+            "name": "Extract a Confession",
+            "notes": "Part of \"Cleared of All Charges\" DLC quest",
+            "uid": "merc_extractaconfession"
+        },
+        {
             "area": "Kingdom of Tantal",
             "name": "Children's Snowsuit",
             "notes": "",
@@ -2056,7 +2074,7 @@
         {
             "area": "Kingdom of Tantal",
             "name": "Crossing Bridges",
-            "notes": "DLC",
+            "notes": "Unlocks after completing DLC quest \"The Lone Watchman\"",
             "uid": "merc_crossingbridges"
         },
         {
