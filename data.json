@@ -242,6 +242,15 @@
             "stat": "Ether 20%",
             "uid": "bl_kosmos",
             "weapon": "Ether Cannon"
+        },
+        {
+            "acquisition": "Random after Main Story completed",
+            "blade": "T-elos",
+            "element": "Dark",
+            "role": "Attacker",
+            "stat": "Strength 15%",
+            "uid": "bl_telos",
+            "weapon": "Greataxe"
         }
     ],
     "blades-dlc": [
@@ -318,15 +327,6 @@
             "stat": "Agility 15%",
             "uid": "bl_mikhail",
             "weapon": "Infinity Fans"
-        },
-        {
-            "acquisition": "Random",
-            "blade": "T-elos",
-            "element": "Dark",
-            "role": "Attacker",
-            "stat": "Strength 15%",
-            "uid": "bl_telos",
-            "weapon": "Greataxe"
         }
     ],
     "bspon": [
@@ -3657,7 +3657,7 @@
         },
         {
             "blade": "T-elos",
-            "description": "New Game+",
+            "description": "",
             "location": "Kingdom of Uraya (Olethro Ruins)",
             "name": "Lingering Resentment",
             "prereqs": "Main story completed",
