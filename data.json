@@ -1418,7 +1418,7 @@
         {
             "area": "Argentum Trade Guild",
             "name": "Titan Battleship Fixes",
-            "notes": "Unlocks after completing DLC quest \"The Lone Watchman\"",
+            "notes": "Unlocks after completing DLC quest \"The Lone Watchman\" and \"Lifeline to Temperantia\" merc mission",
             "uid": "merc_titanbattleshipfixes"
         },
         {
@@ -2216,7 +2216,7 @@
         {
             "area": "Empire of Mor Ardain",
             "name": "Stolen Data",
-            "notes": "",
+            "notes": "Part of \"Hard to Stomach\" side quest. Can be skipped by purchasing the relevant Info Item from an Informant.",
             "uid": "merc_stolendata"
         },
         {
@@ -2550,6 +2550,12 @@
             "uid": "merc_extractaconfession"
         },
         {
+            "area": "Leftherian Archipelago",
+            "name": "Reclaimation",
+            "notes": "Unlocks after completing \"Cleared of All Charges\" DLC quest",
+            "uid": "merc_reclaimation"
+        },
+        {
             "area": "Kingdom of Tantal",
             "name": "Children's Snowsuit",
             "notes": "",
@@ -2660,7 +2666,7 @@
         {
             "area": "Kingdom of Tantal",
             "name": "Crossing Bridges",
-            "notes": "Unlocks after completing DLC quest \"The Lone Watchman\"",
+            "notes": "Unlocks after completing DLC quest \"The Lone Watchman\" and \"Titan Battleship Fixes\" merc mission",
             "uid": "merc_crossingbridges"
         },
         {
@@ -2710,6 +2716,12 @@
             "name": "Fake Vase",
             "notes": "",
             "uid": "merc_fakevase"
+        },
+        {
+            "area": "Kingdom of Tantal",
+            "name": "Finch's Big News",
+            "notes": "Part of \"Most Awful News?!\" DLC quest",
+            "uid": "merc_finchsbignews"
         }
     ],
     "quests": [
