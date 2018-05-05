@@ -1460,13 +1460,13 @@
         {
             "area": "Argentum Trade Guild",
             "name": "On the Son's Trail!",
-            "notes": "",
+            "notes": "Part of \"Fame and Family\" side quest",
             "uid": "merc_onthesonstrail"
         },
         {
             "area": "Argentum Trade Guild",
             "name": "Three Parts",
-            "notes": "",
+            "notes": "Part of \"Bana's Secret Treasure\" side quest",
             "uid": "merc_threeparts"
         },
         {
@@ -1526,7 +1526,7 @@
         {
             "area": "Argentum Trade Guild",
             "name": "We Need To Talk!",
-            "notes": "",
+            "notes": "Starts Zenobia's Blade quest \"A Real Challenge\"",
             "uid": "merc_weneedtotalk"
         },
         {
@@ -1724,19 +1724,19 @@
         {
             "area": "Gormott Province",
             "name": "Shipbuilding Wood",
-            "notes": "",
+            "notes": "Part of \"Umon Bounces Back\" side quest",
             "uid": "merc_shipbuildingwood"
         },
         {
             "area": "Gormott Province",
             "name": "Craftsman's Skills",
-            "notes": "",
+            "notes": "Part of \"Umon Bounces Back\" side quest",
             "uid": "merc_craftsmansskills"
         },
         {
             "area": "Gormott Province",
             "name": "Titan Shipbuilding",
-            "notes": "",
+            "notes": "Part of \"Umon Bounces Back\" side quest",
             "uid": "merc_titanshipbuilding"
         },
         {
@@ -1754,7 +1754,7 @@
         {
             "area": "Gormott Province",
             "name": "Tirkin Kountess 1",
-            "notes": "",
+            "notes": "Part of Finch's Blade quest \"Birds of a Feather\"",
             "uid": "merc_tirkinkountess1"
         },
         {
@@ -1952,7 +1952,7 @@
         {
             "area": "Kingdom of Uraya",
             "name": "Surveillance",
-            "notes": "",
+            "notes": "Starts Azami's Blade quest \"All's Fair\"",
             "uid": "merc_surveillance"
         },
         {
@@ -1994,7 +1994,7 @@
         {
             "area": "Kingdom of Uraya",
             "name": "Tirkin Kountess 3",
-            "notes": "",
+            "notes": "Part of Finch's Blade quest \"Birds of a Feather\"",
             "uid": "merc_tirkinkountess3"
         },
         {
@@ -2318,7 +2318,7 @@
         {
             "area": "Empire of Mor Ardain",
             "name": "Tirkin Kountess 2",
-            "notes": "",
+            "notes": "Part of Finch's Blade quest \"Birds of a Feather\"",
             "uid": "merc_tirkinkountess2"
         },
         {
@@ -2702,7 +2702,7 @@
         {
             "area": "Kingdom of Tantal",
             "name": "Tirkin Kountess 4",
-            "notes": "",
+            "notes": "Part of Finch's Blade quest \"Birds of a Feather\"",
             "uid": "merc_tirkinkountess4"
         },
         {
@@ -2986,7 +2986,7 @@
             "giver": "Soldier",
             "location": "Torigoth Relay Base",
             "name": "Tirkin Suppression",
-            "prereqs": "Part of Bana's Secret Treasure",
+            "prereqs": "Part of \"Bana's Secret Treasure\"",
             "uid": "q_tirkinsuppression"
         },
         {
@@ -3138,7 +3138,7 @@
             "giver": "Iona",
             "location": "Mymoma Playhouse",
             "name": "A Secret Cure",
-            "prereqs": "Chapter 10",
+            "prereqs": "Chapter 10, \"The Titan Scholar\" completed",
             "uid": "q_asecretcure"
         },
         {
@@ -3432,12 +3432,12 @@
             "uid": "q_nim"
         },
         {
-            "blade": "Xenobia",
+            "blade": "Zenobia",
             "description": "",
-            "location": "Various",
+            "location": "Argentum Trade Guild (Goldmouth Res. Dist.)",
             "name": "A Real Challenge",
-            "prereqs": "Stronger than Light (H2H)",
-            "uid": "q_xenobia"
+            "prereqs": "Stronger than Light (H2H), We Need To Talk! (Merc mission)",
+            "uid": "q_zenobia"
         },
         {
             "blade": "Adenine",
@@ -3476,7 +3476,7 @@
             "description": "",
             "location": "Kingdom of Uraya (Fonsa Myma Port)",
             "name": "Follow Your Passion",
-            "prereqs": "Gorg Lv. 3 Affinity",
+            "prereqs": "Lv. 3 Affinity",
             "uid": "q_gorg"
         },
         {
@@ -3484,7 +3484,7 @@
             "description": "",
             "location": "Leftherian Archipelago (Little Garden of Tradition)",
             "name": "Fool's Gold",
-            "prereqs": "Sheba Lv. 5 Affinity, 1 million G saved.",
+            "prereqs": "Lv. 5 Affinity, 1 million G saved.",
             "uid": "q_sheba"
         },
         {
@@ -3500,7 +3500,7 @@
             "description": "",
             "location": "Argentum Trade Guild (Rumbletum Canteen)",
             "name": "Hero of the Nopon",
-            "prereqs": "Boreas Lv. 5 Affinity, Lv. 2 Nopon Wisdom, Kingdom of Tantal reached",
+            "prereqs": "Lv. 5 Affinity, Lv. 2 Nopon Wisdom, Kingdom of Tantal reached",
             "uid": "q_boreas"
         },
         {
@@ -3516,7 +3516,7 @@
             "description": "",
             "location": "Empire of Mor Ardain (Midorl Bridge)",
             "name": "Lost Kingdom",
-            "prereqs": "Dagas Lv. 5 Affinity",
+            "prereqs": "Lv. 5 Affinity",
             "uid": "q_dagas"
         },
         {
@@ -3556,7 +3556,7 @@
             "description": "",
             "location": "Kingdom of Tantal (Royal Audience Hall)",
             "name": "The Calm and the Storm",
-            "prereqs": "Herald Lv. 5 Affinity",
+            "prereqs": "Lv. 5 Affinity",
             "uid": "q_herald"
         },
         {
@@ -3564,7 +3564,7 @@
             "description": "",
             "location": "Empire of Mor Ardain (Nharil Central Plaza)",
             "name": "The Ties That Bind",
-            "prereqs": "Vale Lv. 5 Affinity",
+            "prereqs": "Lv. 5 Affinity",
             "uid": "q_vale"
         },
         {
@@ -3612,7 +3612,7 @@
             "description": "",
             "location": "Empire of Mor Ardain (Nharil Central Plaza)",
             "name": "Failure and Success",
-            "prereqs": "",
+            "prereqs": "Lv. 3 Affinity",
             "uid": "q_perceval"
         },
         {
@@ -3636,7 +3636,7 @@
             "description": "",
             "location": "Argentum Trade Guild (Goldmouth Wheelhouse)",
             "name": "Birds of a Feather",
-            "prereqs": "",
+            "prereqs": "Lv. 5 Affinity",
             "uid": "q_finch"
         },
         {
