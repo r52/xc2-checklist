@@ -1472,7 +1472,7 @@
         {
             "area": "Argentum Trade Guild",
             "name": "Child Disappearances",
-            "notes": "",
+            "notes": "Part of Perun's \"Eternal Spirit\" Blade quest",
             "uid": "merc_childdisappearances"
         },
         {
@@ -1946,7 +1946,7 @@
         {
             "area": "Kingdom of Uraya",
             "name": "Skillful Doctor",
-            "notes": "",
+            "notes": "Part of \"A Secret Cure\" side quest",
             "uid": "merc_skillfuldoctor"
         },
         {
@@ -1970,7 +1970,7 @@
         {
             "area": "Kingdom of Uraya",
             "name": "Herald Search",
-            "notes": "",
+            "notes": "Part of \"The Calm and the Storm\" Blade quest",
             "uid": "merc_heraldsearch"
         },
         {
@@ -2204,7 +2204,7 @@
         {
             "area": "Empire of Mor Ardain",
             "name": "Find Akatsuki",
-            "notes": "",
+            "notes": "Part of \"Insurgent Investigations\" side quest",
             "uid": "merc_findakatsuki"
         },
         {
@@ -2222,7 +2222,7 @@
         {
             "area": "Empire of Mor Ardain",
             "name": "Medicine Knowledge",
-            "notes": "",
+            "notes": "Part of \"A Secret Cure\" side quest",
             "uid": "merc_medicineknowledge"
         },
         {
@@ -2258,13 +2258,13 @@
         {
             "area": "Empire of Mor Ardain",
             "name": "False Rumor",
-            "notes": "",
+            "notes": "Part of \"Crystal Clear\" Blade quest",
             "uid": "merc_falserumor"
         },
         {
             "area": "Empire of Mor Ardain",
             "name": "Ambush",
-            "notes": "",
+            "notes": "Part of \"Crystal Clear\" Blade quest",
             "uid": "merc_ambush"
         },
         {
