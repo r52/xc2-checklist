@@ -1670,7 +1670,7 @@
         {
             "area": "Gormott Province",
             "name": "Energy for Remodeling",
-            "notes": "",
+            "notes": "Part of \"Powered-Up Poppi\" side quest",
             "uid": "merc_energyforremodeling"
         },
         {
@@ -2802,7 +2802,7 @@
             "giver": "Dagas",
             "location": "Central Exchange",
             "name": "Dagas's Past: Leftheria",
-            "prereqs": "Part of Lost Kingdom",
+            "prereqs": "Part of Dagas' \"Lost Kingdom\" Blade quest",
             "uid": "q_dagas2"
         },
         {
@@ -2826,7 +2826,7 @@
             "giver": "Petir",
             "location": "Tretl Windmill Plaza",
             "name": "A Small War",
-            "prereqs": "Part of The Militia's Request",
+            "prereqs": "Part of \"The Militia's Request\"",
             "uid": "q_asmallwar"
         },
         {
@@ -2850,7 +2850,7 @@
             "giver": "Pettle",
             "location": "Saets Lumber Co.",
             "name": "Crane Criminals",
-            "prereqs": "Part of The Case of the Crane",
+            "prereqs": "Part of \"The Case of the Crane\"",
             "uid": "q_cranecriminals"
         },
         {
@@ -2858,7 +2858,7 @@
             "giver": "Gryff",
             "location": "Torigoth Base Entrance",
             "name": "Diplomatic Tensions",
-            "prereqs": "Part of The Militia's Request",
+            "prereqs": "Part of \"The Militia's Request\"",
             "uid": "q_diplomatictensions"
         },
         {
@@ -2890,7 +2890,7 @@
             "giver": "Shatoto",
             "location": "Garagorm's Arch",
             "name": "No-Penny Nopon",
-            "prereqs": "Part of The Militia's Request",
+            "prereqs": "Part of \"The Militia's Request\"",
             "uid": "q_nopennynopon"
         },
         {
@@ -2906,7 +2906,7 @@
             "giver": "Theory",
             "location": "Garagorm's Arch",
             "name": "Pest Control 1",
-            "prereqs": "Part of Blade-Sharp Memory Blade Quest",
+            "prereqs": "Part of Theory's \"Blade-Sharp Memory\" Blade Quest",
             "uid": "q_pestcontrol1"
         },
         {
@@ -2914,7 +2914,7 @@
             "giver": "Theory",
             "location": "Garagorm's Arch",
             "name": "Pest Control 2",
-            "prereqs": "Part of Blade-Sharp Memory Blade Quest",
+            "prereqs": "Part of Theory's \"Blade-Sharp Memory\" Blade Quest",
             "uid": "q_pestcontrol2"
         },
         {
@@ -2922,7 +2922,7 @@
             "giver": "Theory",
             "location": "Garagorm's Arch",
             "name": "Pest Control 3",
-            "prereqs": "Part of Blade-Sharp Memory Blade Quest",
+            "prereqs": "Part of Theory's \"Blade-Sharp Memory\" Blade Quest",
             "uid": "q_pestcontrol3"
         },
         {
@@ -2930,7 +2930,7 @@
             "giver": "Natheus",
             "location": "Saets Lumber Co.",
             "name": "Repair Torigoth's Crane",
-            "prereqs": "Part of The Case of the Crane",
+            "prereqs": "Part of \"The Case of the Crane\"",
             "uid": "q_repairtorigothscrane"
         },
         {
@@ -2970,7 +2970,7 @@
             "giver": "Feyla",
             "location": "Grodd Residential Zone",
             "name": "The Missing Order",
-            "prereqs": "Part of The Militia's Request",
+            "prereqs": "Part of \"The Militia's Request\"",
             "uid": "q_themissingorder"
         },
         {
@@ -3050,7 +3050,7 @@
             "giver": "Maryn and Terry",
             "location": "Fonsa Myma",
             "name": "Family vs. Fiends",
-            "prereqs": "Part of Theory and Praxis Blade Quest",
+            "prereqs": "Part of \"Theory and Praxis\" Blade Quest",
             "uid": "q_familyvsfiends"
         },
         {
@@ -3058,7 +3058,7 @@
             "giver": "Jeline",
             "location": "Fonsa Myma",
             "name": "Jeline and Shaun",
-            "prereqs": "Part of Theory and Praxis Blade Quest",
+            "prereqs": "Part of \"Theory and Praxis\" Blade Quest",
             "uid": "q_jelineandshaun"
         },
         {
@@ -3066,7 +3066,7 @@
             "giver": "Jammie",
             "location": "Fonsa Myma",
             "name": "Boys and Bullies",
-            "prereqs": "Part of Theory and Praxis Blade Quest",
+            "prereqs": "Part of \"Theory and Praxis\" Blade Quest",
             "uid": "q_boysandbullies"
         },
         {
@@ -3154,7 +3154,7 @@
             "giver": "Dagas",
             "location": "Fonsa Myma",
             "name": "Dagas's Past: Folktales",
-            "prereqs": "Part of Lost Kingdom",
+            "prereqs": "Part of Dagas' \"Lost Kingdom\" Blade quest",
             "uid": "q_dagas5"
         },
         {
@@ -3162,7 +3162,7 @@
             "giver": "Dagas",
             "location": "Alba Cavanich",
             "name": "Dagas's Past: Gormott",
-            "prereqs": "Part of Lost Kingdom",
+            "prereqs": "Part of Dagas' \"Lost Kingdom\" Blade quest",
             "uid": "q_dagas3"
         },
         {
@@ -3234,7 +3234,7 @@
             "giver": "Stulc",
             "location": "Hardhaigh Palace",
             "name": "Defeat Wiggins",
-            "prereqs": "Part of Insurgent Investigations",
+            "prereqs": "Part of \"Insurgent Investigations\"",
             "uid": "q_defeatwiggins"
         },
         {
@@ -3242,7 +3242,7 @@
             "giver": "Stulc",
             "location": "Hardhaigh Palace",
             "name": "Defeat Bhianc",
-            "prereqs": "Part of Insurgent Investigations",
+            "prereqs": "Part of \"Insurgent Investigations\"",
             "uid": "q_defeatbhianc"
         },
         {
@@ -3250,7 +3250,7 @@
             "giver": "Stulc",
             "location": "Hardhaigh Palace",
             "name": "Defeat Arrodh",
-            "prereqs": "Part of Insurgent Investigations",
+            "prereqs": "Part of \"Insurgent Investigations\"",
             "uid": "q_defeatarrodh"
         },
         {
@@ -3338,7 +3338,7 @@
             "giver": "Dagas",
             "location": "Theosoir",
             "name": "Dagas's Past: Tantal",
-            "prereqs": "Part of Lost Kingdom",
+            "prereqs": "Part of Dagas' \"Lost Kingdom\" Blade quest",
             "uid": "q_dagas4"
         },
         {
@@ -3386,7 +3386,7 @@
             "giver": "Willas",
             "location": "Fonsett Island",
             "name": "Language Teacher",
-            "prereqs": "Part of School is in Session",
+            "prereqs": "Part of \"School is in Session\"",
             "uid": "q_languageteacher"
         },
         {
@@ -3394,7 +3394,7 @@
             "giver": "Willas",
             "location": "Fonsett Island",
             "name": "Science Teacher",
-            "prereqs": "Part of School is in Session",
+            "prereqs": "Part of \"School is in Session\"",
             "uid": "q_scienceteacher"
         },
         {
@@ -3402,7 +3402,7 @@
             "giver": "Willas",
             "location": "Fonsett Island",
             "name": "History Teacher",
-            "prereqs": "Part of School is in Session",
+            "prereqs": "Part of \"School is in Session\"",
             "uid": "q_historyteacher"
         },
         {
