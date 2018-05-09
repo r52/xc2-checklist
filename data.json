@@ -701,7 +701,7 @@
             "area": "Gormott Province",
             "location": "Abble's Fountain (Torigoth)",
             "name": "Boreas the Gourmand",
-            "notes": "Boreas Affinity Lv. 2",
+            "notes": "Boreas Affinity Lv. 2, Sleep in Torigoth",
             "party": "Boreas Tora Nia",
             "uid": "h2h_boreasthegourmand"
         },
@@ -709,7 +709,7 @@
             "area": "Gormott Province",
             "location": "Tretl Windmill Plaza (Torigoth)",
             "name": "Reunion",
-            "notes": "",
+            "notes": "Sleep in Torigoth",
             "party": "Vess",
             "uid": "h2h_reunion"
         },
@@ -789,7 +789,7 @@
             "area": "Kingdom of Uraya",
             "location": "Shrine of Light (Garfont Village)",
             "name": "Life Goes On",
-            "notes": "",
+            "notes": "Sleep in Garfont Village",
             "party": "Rex Roc",
             "uid": "h2h_lifegoeson"
         },
@@ -797,7 +797,7 @@
             "area": "Kingdom of Uraya",
             "location": "Blossomshade Cliff (Fonsa Myma)",
             "name": "Girl Power",
-            "notes": "",
+            "notes": "Sleep in Fonsa Myma",
             "party": "Kora Pandoria Brighid Pyra Poppi",
             "uid": "h2h_girlpower"
         },
@@ -925,7 +925,7 @@
             "area": "Leftherian Archipelago",
             "location": "Oratory Knoll Cemetery (Fonsett Island)",
             "name": "By the Graveside",
-            "notes": "",
+            "notes": "Sleep at Corinne's House",
             "party": "Rex Pyra",
             "uid": "h2h_bythegraveside"
         },
@@ -941,7 +941,7 @@
             "area": "Leftherian Archipelago",
             "location": "Orl Cloudway: Fonsett (Cloudway)",
             "name": "Blue Blood",
-            "notes": "",
+            "notes": "Sleep in Argentum",
             "party": "Dagas Tora Poppi Brighid Pandoria",
             "uid": "h2h_blueblood"
         },
@@ -1029,7 +1029,7 @@
             "area": "Kingdom of Tantal",
             "location": "Sekis Pillar (Upper Level)",
             "name": "Tending to Turters",
-            "notes": "",
+            "notes": "Sleep at the inn",
             "party": "Nia Zeke Pandoria",
             "uid": "h2h_tendingtoturters"
         },
@@ -1093,7 +1093,7 @@
             "area": "Spirit Crucible Elpys",
             "location": "Stele of Judgment (Lower Level)",
             "name": "Indomitable Will",
-            "notes": "",
+            "notes": "Sleep in Fonsett",
             "party": "Perun",
             "uid": "h2h_indomitablewill"
         },
@@ -2608,6 +2608,12 @@
             "name": "Cold-Proof Crops",
             "notes": "",
             "uid": "merc_coldproofcrops"
+        },
+        {
+            "area": "Kingdom of Tantal",
+            "name": "Military Training",
+            "notes": "Guard outside Theosoir",
+            "uid": "merc_militarytraining"
         },
         {
             "area": "Kingdom of Tantal",
