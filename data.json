@@ -2562,6 +2562,18 @@
             "uid": "merc_seeding"
         },
         {
+            "area": "Leftherian Archipelago",
+            "name": "Growing",
+            "notes": "Unlocks after completing \"Seeding\" merc mission",
+            "uid": "merc_growing"
+        },
+        {
+            "area": "Kingdom of Tantal",
+            "name": "Ether Furnace Checks",
+            "notes": "Guard outside Theosoir",
+            "uid": "merc_etherfurnacechecks"
+        },
+        {
             "area": "Kingdom of Tantal",
             "name": "Children's Snowsuit",
             "notes": "",
