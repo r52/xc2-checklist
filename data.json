@@ -2551,9 +2551,15 @@
         },
         {
             "area": "Leftherian Archipelago",
-            "name": "Reclaimation",
+            "name": "Reclamation",
             "notes": "Unlocks after completing \"Cleared of All Charges\" DLC quest",
             "uid": "merc_reclaimation"
+        },
+        {
+            "area": "Leftherian Archipelago",
+            "name": "Seeding",
+            "notes": "Unlocks after completing \"Reclamation\" merc mission",
+            "uid": "merc_seeding"
         },
         {
             "area": "Kingdom of Tantal",
