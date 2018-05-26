@@ -1903,6 +1903,30 @@
         },
         {
             "area": "Kingdom of Uraya",
+            "name": "Urayan Crash Course",
+            "notes": "Unlocks after completing \"A Mercenary's Honor\" DLC quest",
+            "uid": "merc_urayancrashcourse"
+        },
+        {
+            "area": "Kingdom of Uraya",
+            "name": "Green-Thumbed Mercs",
+            "notes": "Unlocks after completing \"Urayan Crash Course\"",
+            "uid": "merc_greenthumbedmercs"
+        },
+        {
+            "area": "Kingdom of Uraya",
+            "name": "Aristocratic Security",
+            "notes": "Unlocks after completing \"Green-Thumbed Mercs\"",
+            "uid": "merc_aristocraticsecurity"
+        },
+        {
+            "area": "Kingdom of Uraya",
+            "name": "Wedding Invitation",
+            "notes": "Unlocks after completing \"Aristocratic Security\"",
+            "uid": "merc_weddinginvitation"
+        },
+        {
+            "area": "Kingdom of Uraya",
             "name": "Fad Foods",
             "notes": "",
             "uid": "merc_fadfoods"
@@ -2152,6 +2176,12 @@
             "name": "Lifeline to Temperantia",
             "notes": "Unlocks after completing DLC quest \"The Lone Watchman\"",
             "uid": "merc_lifelinetotemperantia"
+        },
+        {
+            "area": "Empire of Mor Ardain",
+            "name": "Showdown at Chilsain",
+            "notes": "Unlocks after completing DLC quest \"Merclibay's Mightiest\" and merc mission \"Arach-no-More\"",
+            "uid": "merc_showdownatchilsain"
         },
         {
             "area": "Empire of Mor Ardain",
@@ -2568,6 +2598,24 @@
             "uid": "merc_growing"
         },
         {
+            "area": "Leftherian Archipelago",
+            "name": "Electra's Strategy",
+            "notes": "Optional. Part of the \"Merclibay's Mightiest\" DLC quest",
+            "uid": "merc_electrastrategy"
+        },
+        {
+            "area": "Leftherian Archipelago",
+            "name": "Zenobia's Strategy",
+            "notes": "Optional. Part of the \"Merclibay's Mightiest\" DLC quest",
+            "uid": "merc_zenobiastrategy"
+        },
+        {
+            "area": "Leftherian Archipelago",
+            "name": "Round 2 at Merclibay",
+            "notes": "Unlocks after completing DLC quest \"Merclibay's Mightiest\" and merc mission \"Showdown at Chilsain\"",
+            "uid": "merc_roundtwoatmerclibay"
+        },
+        {
             "area": "Kingdom of Tantal",
             "name": "Ether Furnace Checks",
             "notes": "Guard outside Theosoir",
@@ -2746,6 +2794,12 @@
             "name": "Finch's Big News",
             "notes": "Part of \"Most Awful News?!\" DLC quest",
             "uid": "merc_finchsbignews"
+        },
+        {
+            "area": "Kingdom of Tantal",
+            "name": "Arach-no-More",
+            "notes": "Unlocks after completing DLC quest \"Merclibay's Mightiest\"",
+            "uid": "merc_arachnomore"
         }
     ],
     "quests": [
@@ -3763,7 +3817,7 @@
             "description": "V1.4.1",
             "location": "Argentum Trade Guild (Lemour Inn)",
             "name": "Making Love Source",
-            "prereqs": "From Ch. 7",
+            "prereqs": "From Ch. 7, Poppi QT, sleep at the inn.",
             "uid": "qdlc_makinglovesource"
         },
         {
