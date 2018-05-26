@@ -1418,7 +1418,7 @@
         {
             "area": "Argentum Trade Guild",
             "name": "Titan Battleship Fixes",
-            "notes": "Unlocks after completing DLC quest \"The Lone Watchman\" and \"Lifeline to Temperantia\" merc mission",
+            "notes": "Unlocks after completing DLC quest \"The Lone Watchman\" and merc mission \"Lifeline to Temperantia\"",
             "uid": "merc_titanbattleshipfixes"
         },
         {
@@ -1904,25 +1904,25 @@
         {
             "area": "Kingdom of Uraya",
             "name": "Urayan Crash Course",
-            "notes": "Unlocks after completing \"A Mercenary's Honor\" DLC quest",
+            "notes": "Unlocks after completing DLC quest \"A Mercenary's Honor\"",
             "uid": "merc_urayancrashcourse"
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Green-Thumbed Mercs",
-            "notes": "Unlocks after completing \"Urayan Crash Course\"",
+            "notes": "Unlocks after completing DLC quest \"A Mercenary's Honor\" and merc mission \"Urayan Crash Course\"",
             "uid": "merc_greenthumbedmercs"
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Aristocratic Security",
-            "notes": "Unlocks after completing \"Green-Thumbed Mercs\"",
+            "notes": "Unlocks after completing DLC quest \"A Mercenary's Honor\" and merc mission \"Green-Thumbed Mercs\"",
             "uid": "merc_aristocraticsecurity"
         },
         {
             "area": "Kingdom of Uraya",
             "name": "Wedding Invitation",
-            "notes": "Unlocks after completing \"Aristocratic Security\"",
+            "notes": "Unlocks after completing DLC quest \"A Mercenary's Honor\" and merc mission \"Aristocratic Security\"",
             "uid": "merc_weddinginvitation"
         },
         {
@@ -2582,19 +2582,19 @@
         {
             "area": "Leftherian Archipelago",
             "name": "Reclamation",
-            "notes": "Unlocks after completing \"Cleared of All Charges\" DLC quest",
+            "notes": "Unlocks after completing DLC quest \"Cleared of All Charges\"",
             "uid": "merc_reclaimation"
         },
         {
             "area": "Leftherian Archipelago",
             "name": "Seeding",
-            "notes": "Unlocks after completing \"Reclamation\" merc mission",
+            "notes": "Unlocks after completing DLC quest \"Cleared of All Charges\" and merc mission \"Reclamation\"",
             "uid": "merc_seeding"
         },
         {
             "area": "Leftherian Archipelago",
             "name": "Growing",
-            "notes": "Unlocks after completing \"Seeding\" merc mission",
+            "notes": "Unlocks after completing DLC quest \"Cleared of All Charges\" and merc mission \"Seeding\"",
             "uid": "merc_growing"
         },
         {
@@ -2738,7 +2738,7 @@
         {
             "area": "Kingdom of Tantal",
             "name": "Crossing Bridges",
-            "notes": "Unlocks after completing DLC quest \"The Lone Watchman\" and \"Titan Battleship Fixes\" merc mission",
+            "notes": "Unlocks after completing DLC quest \"The Lone Watchman\" and merc mission \"Titan Battleship Fixes\"",
             "uid": "merc_crossingbridges"
         },
         {
