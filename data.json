@@ -3711,6 +3711,13 @@
             "uid": "qdlc_nopon"
         },
         {
+            "description": "V1.4.1",
+            "location": "Kindgom of Uraya (Garfont Village)",
+            "name": "A Smith’s Pastime",
+            "prereqs": "From Ch. 3",
+            "uid": "qdlc_asmithspastime"
+        },
+        {
             "description": "V1.2.0",
             "location": "Empire of Mor Ardain (Port Anangham)",
             "name": "Industrial Sort of Tour",
@@ -3725,6 +3732,13 @@
             "uid": "qdlc_cleardcharges"
         },
         {
+            "description": "V1.4.1",
+            "location": "Kindgom of Uraya (Fonsa Myma Port)",
+            "name": "A Hat Fit for a Lady",
+            "prereqs": "From Ch. 5",
+            "uid": "qdlc_ahatfitforalady"
+        },
+        {
             "description": "V1.3.1",
             "location": "Leftherian Archipelago (Rigitte Harbor)",
             "name": "Beneath the Aurora",
@@ -3732,11 +3746,25 @@
             "uid": "qdlc_beneathaurora"
         },
         {
+            "description": "V1.4.0",
+            "location": "Gormott Province (Tora's House)",
+            "name": "Shiny New Power",
+            "prereqs": "From Ch. 6",
+            "uid": "qdlc_shinynewpower"
+        },
+        {
             "description": "V1.2.0",
             "location": "Empire of Mor Ardain (Nharil Central Plaza)",
             "name": "Midnight Feasting",
             "prereqs": "From Ch. 7",
             "uid": "qdlc_midnightfeasting"
+        },
+        {
+            "description": "V1.4.1",
+            "location": "Argentum Trade Guild (Lemour Inn)",
+            "name": "Making Love Source",
+            "prereqs": "From Ch. 7",
+            "uid": "qdlc_makinglovesource"
         },
         {
             "description": "V1.3.1",
@@ -3760,11 +3788,18 @@
             "uid": "qdlc_mostawfulnews"
         },
         {
-            "description": "V1.4.0",
-            "location": "Gormott Province (Tora's House)",
-            "name": "Shiny New Power",
-            "prereqs": "From Ch. 6",
-            "uid": "qdlc_shinynewpower"
+            "description": "V1.4.1",
+            "location": "Kingdom of Uraya (Royal Guard Barracks)",
+            "name": "A Mercenary's Honor",
+            "prereqs": "From Ch. 10, \"Beneath the Aurora\" finished",
+            "uid": "qdlc_amercenaryshonor"
+        },
+        {
+            "description": "V1.4.1",
+            "location": "Leftherian Archipelago (Rigitte Harbor)",
+            "name": "Merclibay's Mightiest",
+            "prereqs": "From Ch. 10, have Zenobia, Herald w/ Lv. 5 Rampage, Electra w/ Lv. 5 Mastery of Thunder",
+            "uid": "qdlc_merclibaysmightiest"
         }
     ],
     "secretareas": [
