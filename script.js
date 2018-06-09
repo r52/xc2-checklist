@@ -15,7 +15,7 @@ function saveStore() {
 function resetAll() {
     store.clear();
     $("tr[data-uniqueid]").removeClass(highlight);
-    $("span[id$='completed-counter']").text("0");
+    $("span[id$='-completed']").text("0");
     saveStore();
 }
 
@@ -33,6 +33,38 @@ function toggleElement(e, counterElement) {
     }
 
     saveStore();
+}
+
+function importError() {
+    $("#importModal").modal('hide');
+    $("#import-fail").collapse('show');
+    setTimeout(function(){ $("#import-fail").collapse('hide'); }, 5000);
+}
+
+function importProgress() {
+    var cstr = $("#import-code").val();
+    if (!cstr) {
+        importError();
+        return;
+    }
+
+    var jstr = LZString.decompressFromBase64(cstr);
+    if (!jstr) {
+        importError();
+        return;
+    }
+
+    try {
+        var a = JSON.parse(jstr);
+    } catch(e) {
+        importError();
+        return;
+    }
+
+    // success
+    localStorage.setItem("xc2-checklist", jstr);
+    $("#importModal").modal('hide');
+    $("#import-success").collapse('show');
 }
 
 var tables = ["quests", "quests-dlc", "quests-blade", "blades", "blades-ng", "blades-dlc", "shopdeeds", "uniquemonsters", "hearttoheart", "mercmissions", "secretareas", "expman", "bspon", "foorara", "doubloons"];
@@ -579,6 +611,31 @@ $(function() {
             striped: true,
             columns: defs["trust-col"]
         });
+    });
+
+    // Import/export dialog
+    $('#exportModal').on('show.bs.modal', function(event) {
+        var jstr = JSON.stringify([...store]);
+        var cstr = LZString.compressToBase64(jstr);
+        var modal = $(this);
+        modal.find('#export-code').val(cstr);
+    })
+
+    // buttons
+    $("#import-save").confirmation({
+        rootSelector: "#import-save",
+        popout: true,
+        onConfirm: function(v) {
+            importProgress();
+        },
+        onCancel: function(v) {
+            $("#importModal").modal('hide');
+        },
+    });
+    $("#export-copy").tooltip();
+    $("#export-copy").click(function() {
+        $("#export-code").select();
+        document.execCommand("copy");
     });
 
     $("#reset-yes").click(function() {

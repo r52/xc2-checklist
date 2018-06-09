@@ -15,6 +15,8 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/4.1.1/js/bootstrap.min.js" integrity="sha256-xaF9RpdtRxzwYMWg4ldJoyPWqyDPCRD0Cv7YEEe6Ie8=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.12.1/bootstrap-table.min.js" integrity="sha256-l+jZldmOASkIPelan4NKyAFD+oGNqPulrVQwsjxuCXc=" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/bootstrap-table/1.12.1/extensions/filter-control/bootstrap-table-filter-control.min.js" integrity="sha256-JpqYkcCJyvE+kxrFvhclJVe8LXkDIrqlio0V90A/yuM=" crossorigin="anonymous"></script>
+    <script src="bootstrap-confirmation.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.4.4/lz-string.min.js" integrity="sha256-nRoO8HoupfqozUr7YKBRgHXmdx40Hl/04OSBzv7e7L8=" crossorigin="anonymous"></script>
     <!-- Global site tag (gtag.js) - Google Analytics -->
     <script async src="https://www.googletagmanager.com/gtag/js?id=UA-118757961-1"></script>
     <script>
@@ -30,6 +32,13 @@
 </head>
 
 <body>
+    <!-- import alerts -->
+    <div class="alert alert-danger collapse" role="alert" id="import-fail">
+        Failed to import progress. Invalid progress code.
+    </div>
+    <div class="alert alert-success collapse" role="alert" id="import-success">
+        Import successful! Refresh the page to continue.
+    </div>
     <!-- Title -->
     <div id="title-bar" class="d-flex flex-row">
         <div class="p-2">
@@ -37,6 +46,8 @@
         </div>
         <div class="p-2 align-self-center">
             <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#resetModal">Reset All Progress</button>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#importModal">Import Progress</button>
+            <button type="button" class="btn btn-primary" data-toggle="modal" data-target="#exportModal">Export Progress</button>
         </div>
         <div class="ml-auto p-2 align-self-center">
             <a class="btn btn-success" href="https://github.com/r52/xc2-checklist" role="button">Fork me on GitHub</a>
@@ -104,6 +115,10 @@
             <h6>This checklist is filled to the best of my ability based on my own playthrough, and should be mostly complete. However, will probably be things I may have missed due to new patches, DLC content, and such. On top of that, there seems to be various minor Merc Missions that have very fickle or specific trigger requirements that can be easily missed in any given playthrough. If you've discovered anything missing and would like see it added to this list, feel free to create a GitHub issue or PM me on Reddit (<a href="https://www.reddit.com/message/compose/?to=r52">u/r52</a>) with the data for the listing and I'll add it as soon as possible.</h6>
             <br/>
             <h5>Changelog</h5>
+            <h6>Jun 9 2018</h6>
+            <ul>
+                <li>Added import/export progress functionality</li>
+            </ul>
             <h6>May 26 2018</h6>
             <ul>
                 <li>Added V1.4.1 DLC merc missions</li>
@@ -115,11 +130,6 @@
             <h6>May 13 2018</h6>
             <ul>
                 <li>Added more missing Merc Missions</li>
-            </ul>
-            <h6>May 9 2018</h6>
-            <ul>
-                <li>Added more Heart-to-Heart prereq data</li>
-                <li>Added missing Merc Mission in Tantal (thanks OkiKagu59)</li>
             </ul>
         </div>
         <div class="tab-pane fade" id="quests" role="tabpanel" aria-labelledby="quests-tab">
@@ -190,7 +200,7 @@
             <table id="trust-table" class="table table-hover"></table>
         </div>
     </div>
-    <!-- Modal -->
+    <!-- Reset Modal -->
     <div class="modal fade" id="resetModal" tabindex="-1" role="dialog" aria-labelledby="resetModalCenterTitle" aria-hidden="true">
         <div class="modal-dialog modal-dialog-centered" role="document">
             <div class="modal-content">
@@ -202,6 +212,58 @@
                 <div class="modal-footer">
                     <button type="button" class="btn btn-secondary" data-dismiss="modal">No, get me out of here!</button>
                     <button id="reset-yes" type="button" class="btn btn-primary" data-dismiss="modal">Yes, reset everything.</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Export Modal -->
+    <div class="modal fade" id="exportModal" tabindex="-1" role="dialog" aria-labelledby="exportModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="exportModalLabel">Export Progress</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="export-code" class="col-form-label">This code contains your progress. Copy it and save it anywhere (i.e. to import it on another device/browser).</label>
+                            <textarea class="form-control" id="export-code" rows="3" readonly></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="export-copy" data-toggle="tooltip" data-trigger="click" data-placement="top" title="Copied!">Copy to clipboard</button>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Import Modal -->
+    <div class="modal fade" id="importModal" tabindex="-1" role="dialog" aria-labelledby="importModalLabel" aria-hidden="true">
+        <div class="modal-dialog modal-dialog-centered" role="document">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="importModalLabel">Import Progress</h5>
+                    <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                        <span aria-hidden="true">&times;</span>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form>
+                        <div class="form-group">
+                            <label for="import-code" class="col-form-label">Paste your progress code here:</label>
+                            <label for="import-code" class="col-form-label">WARNING: THIS WILL OVERWRITE YOUR PROGRESS</label>
+                            <textarea class="form-control" id="import-code"></textarea>
+                        </div>
+                    </form>
+                </div>
+                <div class="modal-footer">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary" id="import-save" data-toggle="confirmation" data-btn-ok-label="Continue" data-btn-ok-class="btn-success" data-btn-cancel-label="No, get me out of here!" data-btn-cancel-class="btn-danger" data-title="Are you sure?"
+                        data-content="This will overwrite your current progress">Import my progress!</button>
                 </div>
             </div>
         </div>
