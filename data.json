@@ -262,6 +262,24 @@
             "stat": "Agility 15%",
             "uid": "bl_poppibuster",
             "weapon": "Shield Hammer"
+        },
+        {
+            "acquisition": "Land of Challenge (DLC location)",
+            "blade": "Shulk",
+            "element": "Light",
+            "role": "Attacker",
+            "stat": "Ether 20%",
+            "uid": "bl_shulk",
+            "weapon": "Monado"
+        },
+        {
+            "acquisition": "Land of Challenge (DLC location)",
+            "blade": "Fiora",
+            "element": "Wind",
+            "role": "Healer",
+            "stat": "Strength 15%",
+            "uid": "bl_fiora",
+            "weapon": "Knives"
         }
     ],
     "blades-ng": [
