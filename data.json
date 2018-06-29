@@ -711,7 +711,7 @@
             "area": "Gormott Province",
             "location": "Tretl Windmill Plaza (Torigoth)",
             "name": "Hard Life",
-            "notes": "",
+            "notes": "Sleep in Torigoth",
             "party": "Rex Zeke Pyra Pandoria",
             "uid": "h2h_hardlife"
         },
@@ -783,7 +783,7 @@
             "area": "Kingdom of Uraya",
             "location": "Farlaine Central Pools (Stomach)",
             "name": "Tora's Angst",
-            "notes": "",
+            "notes": "Sleep in Fonsa Myma",
             "party": "Tora Rex Nia",
             "uid": "h2h_torasangst"
         },
@@ -975,7 +975,7 @@
             "area": "Leftherian Archipelago",
             "location": "Orl Cloudway: Fonsett (Cloudway)",
             "name": "Rough Diamond",
-            "notes": "Sleep at Corinne's House",
+            "notes": "Praxis Lv. 5 Affinity, Lv. 4 Fierce Deluge, Sleep at Corinne's House with Praxis and Theory engaged",
             "party": "Theory Praxis",
             "uid": "h2h_roughdiamond"
         },
@@ -1063,7 +1063,7 @@
             "area": "Kingdom of Tantal",
             "location": "Theosoir Main Gate (Theosoir)",
             "name": "Sweet Strategy",
-            "notes": "",
+            "notes": "Sleep in Theosoir",
             "party": "Gorg Rex Tora",
             "uid": "h2h_sweetstrategy"
         },
@@ -1103,7 +1103,7 @@
             "area": "Spirit Crucible Elpys",
             "location": "Canyon of Husks (Upper Level)",
             "name": "Five Centuries of Memories",
-            "notes": "",
+            "notes": "Sleep at Corinne's House",
             "party": "Rex Nia Zeke Morag",
             "uid": "h2h_fivecenturiesofmemories"
         },
@@ -1135,8 +1135,8 @@
             "area": "Cliffs of Morytha",
             "location": "Gotrock Oracle Ruins (Lower Level)",
             "name": "Forward-Looking Woman",
-            "notes": "",
-            "party": "Kassandra",
+            "notes": "Sleep at Corinne's House",
+            "party": "Kasandra",
             "uid": "h2h_forwardlookingwoman"
         },
         {
