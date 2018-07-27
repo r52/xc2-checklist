@@ -280,6 +280,15 @@
             "stat": "Strength 15%",
             "uid": "bl_fiora",
             "weapon": "Knives"
+        },
+        {
+            "acquisition": "Ebullient Core Crystal (DLC gift)",
+            "blade": "Crossette",
+            "element": "Fire",
+            "role": "Healer",
+            "stat": "Ether 20%",
+            "uid": "bl_crossette",
+            "weapon": "Bitball"
         }
     ],
     "blades-ng": [
@@ -3790,6 +3799,13 @@
             "uid": "qdlc_asmithspastime"
         },
         {
+            "description": "V1.5.1",
+            "location": "Kindgom of Uraya (Gwendle Repair Dock)",
+            "name": "Sunken Boosters",
+            "prereqs": "From Ch. 3",
+            "uid": "qdlc_sunkenboosters"
+        },
+        {
             "description": "V1.2.0",
             "location": "Empire of Mor Ardain (Port Anangham)",
             "name": "Industrial Sort of Tour",
@@ -3839,11 +3855,25 @@
             "uid": "qdlc_makinglovesource"
         },
         {
+            "description": "V1.5.1",
+            "location": "Kingdom of Tantal (Soprac Old Market)",
+            "name": "Artisanal Accessories",
+            "prereqs": "From Ch. 7",
+            "uid": "qdlc_artisanalaccessories"
+        },
+        {
             "description": "V1.3.1",
             "location": "Gormott Province (Tora's House)",
             "name": "Upgrades and Tinkering",
             "prereqs": "From Ch. 8",
             "uid": "qdlc_upgradestinkering"
+        },
+        {
+            "description": "V1.5.1",
+            "location": "Kindgom of Uraya (Commercial District)",
+            "name": "The Trendy Patissier",
+            "prereqs": "From Ch. 8, have Boreas, Gorg w/ Blade Quest \"Follow Your Passion\" completed",
+            "uid": "qdlc_trendypatissier"
         },
         {
             "description": "V1.2.0",
@@ -3872,6 +3902,20 @@
             "name": "Merclibay's Mightiest",
             "prereqs": "From Ch. 10, have Zenobia, Herald w/ Lv. 5 Rampage, Electra w/ Lv. 5 Mastery of Thunder",
             "uid": "qdlc_merclibaysmightiest"
+        },
+        {
+            "description": "V1.5.1",
+            "location": "Argentum Trade Guild (Goldmouth Flight Deck)",
+            "name": "Hot Spring Bonanza",
+            "prereqs": "From Ch. 10, have Sheba, Kora, Kasandra w/ Lv. 3 One Lucky Gal",
+            "uid": "qdlc_hotspringbonanza"
+        },
+        {
+            "description": "V1.5.1",
+            "location": "Land of Morytha (Wall Power Control Room)",
+            "name": "Mystery Launch Codes",
+            "prereqs": "From Ch. 10, have KOS-MOS, Adenine w/ Lv. 5 Extra-Ancient Wisdom",
+            "uid": "qdlc_mysterylaunchcodes"
         }
     ],
     "secretareas": [
