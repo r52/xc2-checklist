@@ -3767,6 +3767,14 @@
             "name": "Lingering Resentment",
             "prereqs": "Main story completed",
             "uid": "q_telos"
+        },
+        {
+            "blade": "Crossette",
+            "description": "DLC Blade",
+            "location": "Leftherian Archipelago (Fonsett Village)",
+            "name": "Bright Spark",
+            "prereqs": "Lv. 4 Ardent Cooking",
+            "uid": "q_crossette"
         }
     ],
     "quests-dlc": [
