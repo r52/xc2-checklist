@@ -2091,6 +2091,48 @@
             "uid": "merc_everyonelovesfloren"
         },
         {
+            "area": "Kingdom of Uraya",
+            "name": "Trial Run 1",
+            "notes": "Part of \"The Trendy Patissier\" DLC quest",
+            "uid": "merc_trialrun1"
+        },
+        {
+            "area": "Kingdom of Uraya",
+            "name": "Trial Run 2",
+            "notes": "Part of \"The Trendy Patissier\" DLC quest",
+            "uid": "merc_trialrun2"
+        },
+        {
+            "area": "Kingdom of Uraya",
+            "name": "Desserts Delivered 1",
+            "notes": "Unlocks after completing DLC quest \"The Trendy Patissier\"",
+            "uid": "merc_dessertsdelivered1"
+        },
+        {
+            "area": "Kingdom of Uraya",
+            "name": "Desserts Delivered 2",
+            "notes": "Unlocks after completing DLC quest \"The Trendy Patissier\"",
+            "uid": "merc_dessertsdelivered2"
+        },
+        {
+            "area": "Kingdom of Uraya",
+            "name": "Desserts Delivered 3",
+            "notes": "Unlocks after completing DLC quest \"The Trendy Patissier\"",
+            "uid": "merc_dessertsdelivered3"
+        },
+        {
+            "area": "Kingdom of Uraya",
+            "name": "Desserts Delivered 4",
+            "notes": "Unlocks after completing DLC quest \"The Trendy Patissier\"",
+            "uid": "merc_dessertsdelivered4"
+        },
+        {
+            "area": "Kingdom of Uraya",
+            "name": "Desserts Delivered 5",
+            "notes": "Unlocks after completing DLC quest \"The Trendy Patissier\"",
+            "uid": "merc_dessertsdelivered5"
+        },
+        {
             "area": "Empire of Mor Ardain",
             "name": "Cooking Spices",
             "notes": "",
@@ -3920,6 +3962,27 @@
         },
         {
             "description": "V1.5.1",
+            "location": "Kingdom of Mor Ardain (Geothermal Plant Lobby)",
+            "name": "Search for Tekuteku",
+            "prereqs": "Subquest. Part of \"Hot Spring Bonanza\"",
+            "uid": "qdlc_searchfortekuteku"
+        },
+        {
+            "description": "V1.5.1",
+            "location": "Kingdom of Mor Ardain (Geothermal Plant Lobby)",
+            "name": "Search for Alec",
+            "prereqs": "Subquest. Part of \"Hot Spring Bonanza\"",
+            "uid": "qdlc_searchforalec"
+        },
+        {
+            "description": "V1.5.1",
+            "location": "Kingdom of Mor Ardain (Geothermal Plant Lobby)",
+            "name": "Search for Sarrac",
+            "prereqs": "Subquest. Part of \"Hot Spring Bonanza\"",
+            "uid": "qdlc_searchforsarrac"
+        },
+        {
+            "description": "V1.5.1",
             "location": "Land of Morytha (Wall Power Control Room)",
             "name": "Mystery Launch Codes",
             "prereqs": "From Ch. 10, have KOS-MOS, Adenine w/ Lv. 5 Extra-Ancient Wisdom",
@@ -4830,7 +4893,7 @@
             "name": "Slasher Buffon",
             "nation": "Empire of Mor Ardain",
             "spawntime": "Anytime",
-            "species": "Anlood",
+            "species": "Anlood (Driver)",
             "uid": "um_slasherbuffon"
         },
         {
