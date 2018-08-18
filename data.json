@@ -1581,6 +1581,12 @@
             "uid": "merc_tomeofmorythavol4"
         },
         {
+            "area": "Argentum Trade Guild",
+            "name": "Creature of the Depths",
+            "notes": "Karozze on the metal deck path",
+            "uid": "merc_creatureofthedepths"
+        },
+        {
             "area": "Gormott Province",
             "name": "Woodworking",
             "notes": "",
@@ -1801,6 +1807,12 @@
             "name": "Unreturnable Money",
             "notes": "",
             "uid": "merc_unreturnablemoney"
+        },
+        {
+            "area": "Gormott Province",
+            "name": "Phonex Escort",
+            "notes": "Yux at Treetop Path (requires Nim Lv. 2 Phonex Linguistics)",
+            "uid": "merc_phonexescort"
         },
         {
             "area": "Kingdom of Uraya",
