@@ -289,6 +289,24 @@
             "stat": "Ether 20%",
             "uid": "bl_crossette",
             "weapon": "Bitball"
+        },
+        {
+            "acquisition": "Divine Core Crystal (DLC gift)",
+            "blade": "Corvin",
+            "element": "Light",
+            "role": "Tank",
+            "stat": "Agility 20%",
+            "uid": "bl_corvin",
+            "weapon": "Halteclere"
+        },
+        {
+            "acquisition": "Land of Challenge (DLC location)",
+            "blade": "Elma",
+            "element": "Dark",
+            "role": "Attacker",
+            "stat": "Ether 20%",
+            "uid": "bl_elma",
+            "weapon": "Archetype Ralzes"
         }
     ],
     "blades-ng": [
