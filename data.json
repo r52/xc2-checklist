@@ -3847,6 +3847,14 @@
             "name": "Bright Spark",
             "prereqs": "Lv. 4 Ardent Cooking",
             "uid": "q_crossette"
+        },
+        {
+            "blade": "Corvin",
+            "description": "DLC Blade",
+            "location": "Kingdom of Tantal (Theoscaldia Palace)",
+            "name": "Corvin's Approach",
+            "prereqs": "Corvin in party",
+            "uid": "q_corvin"
         }
     ],
     "quests-dlc": [
