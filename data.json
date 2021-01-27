@@ -3974,7 +3974,7 @@
             "description": "V1.3.1",
             "location": "Kingdom of Tantal (Theosoir)",
             "name": "Most Awful News?!",
-            "prereqs": "From Ch. 10, Finch Lv. 3 Birdbrain",
+            "prereqs": "From Ch. 10, Finch Lv. 3 Birdbrain, Zeke and Finch in party, sleep at Theosoir inn",
             "uid": "qdlc_mostawfulnews"
         },
         {
@@ -4948,7 +4948,7 @@
             "location": "Sacred Ice Caverns",
             "name": "Deep-Green Oscar",
             "nation": "Kingdom of Tantal",
-            "spawntime": "Anytime",
+            "spawntime": "Nighttime + Snow",
             "species": "Ellook",
             "uid": "um_deepgreenoscar"
         },
