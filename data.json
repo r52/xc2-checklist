@@ -374,6 +374,17 @@
       "weapon": "Infinity Fans"
     }
   ],
+  "blades-sw2": [
+    {
+      "acquisition": "Pretty Core Crystal (DLC gift)",
+      "blade": "MOMO / MOMO (i)",
+      "element": "Light / Dark",
+      "role": "Healer",
+      "stat": "Max HP 5%, Ether 40%, Dexterity 5%, Agility 5%",
+      "uid": "bl_momo",
+      "weapon": "Bunnie"
+    }
+  ],
   "bspon": [
     {
       "description": "12 Brothersisterpon shop keeper",
@@ -3855,6 +3866,14 @@
       "name": "Corvin's Approach",
       "prereqs": "Corvin in party",
       "uid": "q_corvin"
+    },
+    {
+      "blade": "MOMO",
+      "description": "Switch 2 exclusive Blade",
+      "location": "Kingdom of Uraya (Loska's Gap)",
+      "name": "The Home of the Soul",
+      "prereqs": "Lv. 4 Affinity; MOMO, Pyra, Nia, Tora, Zeke, and Mòrag in party",
+      "uid": "q_momo"
     }
   ],
   "quests-dlc": [
